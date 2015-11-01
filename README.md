@@ -26,11 +26,14 @@ The cost is roughly [estimate] in total including flight, conference ticket, and
 6. 
 
 
-## Photos of Speakers
+## Speaker Info
 * https://www.dropbox.com/sh/hzujyqgdz6nf74w/AAAIx_JR2NxJx5kHHhsoXT60a?dl=0
 * Bios in the speaker tab here: https://docs.google.com/spreadsheets/d/1LuvI6EJaZLIgT-wbpqkAcQ21g_xSxBM2u8_6DednOEg/edit?usp=sharing
+* 
+Twitter
+https://twitter.com/tryswiftconf
 
 ## To-Dos
-[ X ] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
+[X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
 [ ] Design the header
-[ ] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
+[X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
