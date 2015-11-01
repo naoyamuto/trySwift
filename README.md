@@ -34,6 +34,6 @@ Twitter
 https://twitter.com/tryswiftconf
 
 ## To-Dos
-[X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
-[ ] Design the header
-[X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
+- [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
+- [ ] Design the header
+- [X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
