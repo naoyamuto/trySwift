@@ -3,6 +3,7 @@ _try!Swift_ is conference all about Swift and why you should be using it if youâ
 
 ## Other Conference Websites for Inspiration
 
+* http://www.awssummit.tokyo/
 * http://iosdevcampdc.com/
 * https://www.swiftsummit.com/
 * http://aceat.org/ 
@@ -11,7 +12,6 @@ _try!Swift_ is conference all about Swift and why you should be using it if youâ
 * http://10times.com/computer-animation-festival
 * http://10times.com/iccssnit-tokyo
 * http://www.openmobilemedia.com/tokyo/
-* http://www.awssummit.tokyo/
 
 ## [Get your ticket now!]()
 
