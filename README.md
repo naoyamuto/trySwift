@@ -19,6 +19,10 @@ _try! Swift_ is conference all about Swift and why you should be using it if you
 
 ## Code of Conduct
 
+* We can copy this one for now: https://github.com/iosdevcampdc/iosdevcampdc15. 
+* I've set up an email info@tryswiftconf.com
+
+
 ## Convince Your Boss
 It can be hard to convince your boss to let you leave work to attend a pricey conference—so, to help you out, we've compiled a list of reasons to help you convince your boss:
 
