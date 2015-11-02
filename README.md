@@ -37,14 +37,13 @@ The cost is roughly [estimate] in total including flight, conference ticket, and
 5. ```bundle install``` to get dependencies.
 6. ```rake db:create_all``` to create the database
 7. ```rake db:migrate``` to generate the database tables
+8. ```rake db:setup``` adds the seed data to the database
+9. 
 
 
 ## Speaker Info
-* https://www.dropbox.com/sh/hzujyqgdz6nf74w/AAAIx_JR2NxJx5kHHhsoXT60a?dl=0
-* Bios in the speaker tab here: https://docs.google.com/spreadsheets/d/1LuvI6EJaZLIgT-wbpqkAcQ21g_xSxBM2u8_6DednOEg/edit?usp=sharing
-* 
-Twitter
-https://twitter.com/tryswiftconf
+* There is now a `Speaker` table / model. 
+* Only Speakers who have `announced` set to `true` should be displayed 
 
 ## To-Dos
 - [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
