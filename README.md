@@ -1,5 +1,17 @@
-# try!Swift conference site
-_try!Swift_ is conference all about Swift and why you should be using it if you’re not already happening **March 14th-16th** in the wonderful **Something Labs** in **Tokyo, Japan**. Want to come but need help getting here? Check out our [diversity scholarships]() and our [tips to convince your boss]().
+# try! Swift conference site
+_try! Swift_ is conference all about Swift and why you should be using it if you’re not already happening **March 2nd-4th** in the wonderful **Something Labs** in **Tokyo, Japan**. Want to come but need help getting here? Check out our [diversity scholarships]() and our [tips to convince your boss]().
+
+## Other Conference Websites for Inspiration
+
+* http://www.awssummit.tokyo/
+* http://iosdevcampdc.com/
+* https://www.swiftsummit.com/
+* http://aceat.org/ 
+* http://tech.rakuten.co.jp/
+* http://sedt.org/
+* http://10times.com/computer-animation-festival
+* http://10times.com/iccssnit-tokyo
+* http://www.openmobilemedia.com/tokyo/
 
 ## [Get your ticket now!]()
 
@@ -23,10 +35,18 @@ The cost is roughly [estimate] in total including flight, conference ticket, and
 3. ```[sudo] gem install bundler``` to make sure you can install dependencies.
 4. ```brew install postgresql```, if you don't have this installed locally.
 5. ```bundle install``` to get dependencies.
-6. 
+6. ```rake db:create_all``` to create the database
+7. ```rake db:migrate``` to generate the database tables
 
+
+## Speaker Info
+* https://www.dropbox.com/sh/hzujyqgdz6nf74w/AAAIx_JR2NxJx5kHHhsoXT60a?dl=0
+* Bios in the speaker tab here: https://docs.google.com/spreadsheets/d/1LuvI6EJaZLIgT-wbpqkAcQ21g_xSxBM2u8_6DednOEg/edit?usp=sharing
+* 
+Twitter
+https://twitter.com/tryswiftconf
 
 ## To-Dos
-[ ] Email speakers and ask for large photos of themselves they'd like to see on the site + bios
-[ ] Design the header
-[ ] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
+- [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
+- [ ] Design the header
+- [X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
