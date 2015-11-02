@@ -1,6 +1,18 @@
 # try!Swift conference site
 _try!Swift_ is conference all about Swift and why you should be using it if you’re not already happening **March 14th-16th** in the wonderful **Something Labs** in **Tokyo, Japan**. Want to come but need help getting here? Check out our [diversity scholarships]() and our [tips to convince your boss]().
 
+## Other Conference Websites for Inspiration
+
+* http://iosdevcampdc.com/
+* https://www.swiftsummit.com/
+* http://aceat.org/ 
+* http://tech.rakuten.co.jp/
+* http://sedt.org/
+* http://10times.com/computer-animation-festival
+* http://10times.com/iccssnit-tokyo
+* http://www.openmobilemedia.com/tokyo/
+* http://www.awssummit.tokyo/
+
 ## [Get your ticket now!]()
 
 ## Diversity Scholarships
