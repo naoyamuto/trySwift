@@ -35,7 +35,8 @@ The cost is roughly [estimate] in total including flight, conference ticket, and
 3. ```[sudo] gem install bundler``` to make sure you can install dependencies.
 4. ```brew install postgresql```, if you don't have this installed locally.
 5. ```bundle install``` to get dependencies.
-6. 
+6. ```rake db:create_all``` to create the database
+7. ```rake db:migrate``` to generate the database tables
 
 
 ## Speaker Info
