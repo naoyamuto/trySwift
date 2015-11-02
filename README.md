@@ -5,6 +5,7 @@ _try! Swift_ is conference all about Swift and why you should be using it if you
 
 * http://www.awssummit.tokyo/
 * http://iosdevcampdc.com/
+* http://do-ios.com/#!/home
 * https://www.swiftsummit.com/
 * http://aceat.org/ 
 * http://tech.rakuten.co.jp/
