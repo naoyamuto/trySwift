@@ -1,6 +1,13 @@
 # try! Swift conference site
 _try! Swift_ is conference all about Swift and why you should be using it if you’re not already happening **March 2nd-4th** in the wonderful **Something Labs** in **Tokyo, Japan**. Want to come but need help getting here? Check out our [diversity scholarships]() and our [tips to convince your boss]().
 
+This section should be easy to read to get the details. So it should just be: 
+
+* try! Swift
+* Meet, Learn, Eat (we need a clever tagline like this)
+* March 2nd - 4th
+* Tokyo, Japan (still ironing out the venue - looking for a bigger one at the moment, so just Tokyo is fine)
+
 ## Other Conference Websites for Inspiration
 
 * http://www.awssummit.tokyo/
@@ -15,6 +22,7 @@ _try! Swift_ is conference all about Swift and why you should be using it if you
 * http://www.openmobilemedia.com/tokyo/
 
 ## [Get your ticket now!]()
+We'll need to set up an eventbrite page
 
 ## Diversity Scholarships
 
@@ -37,6 +45,16 @@ It can be hard to convince your boss to let you leave work to attend a pricey co
 ### The Cost
 The cost is roughly [estimate] in total including flight, conference ticket, and hotel for the duration of the conference. 
 
+* The cost will just be the price of the ticket - which they can see on the "Buy Ticket" page. Most attendees will be in Tokyo, so the travel is not relavant. It's only for the speakers, which I"ll work with separately. So we don't need this section. 
+
+## Sponsors
+* logos for sponsors
+* Currently, the only sponsor is Realm - https://realm.io/
+* If the want to sponsor, they can just email info@tryswiftconf.com. We'll add a download so they can see sponsorship options in a bit.
+
+## Organizers
+* Everyone in the Slack channel. I'll get bios / photos / twitter handles 
+
 ## Installation instructions
 1. ```git clone``` the repository
 2. ```[sudo] gem install rails``` if you don't have Rails installed locally. (If you don't, this installation will take a moment.)
@@ -57,3 +75,5 @@ The cost is roughly [estimate] in total including flight, conference ticket, and
 - [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
 - [ ] Design the header
 - [X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
+- [ ] Set up an Eventbrite page 
+- [ ] Get photos, bio, twitter handle for organizers
