@@ -18,6 +18,9 @@ _try! Swift_ is conference all about Swift and why you should be using it if you
 
 ## Diversity Scholarships
 
+* This is for the speakers, so shouldn't be included on the main page. 
+* If we can get a larger venue, I'll reach out to Women Who Code Tokyo and give away a few tickets
+
 ## Code of Conduct
 
 * We can copy this one for now: https://github.com/iosdevcampdc/iosdevcampdc15. 
