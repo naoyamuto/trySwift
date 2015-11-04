@@ -1,25 +1,30 @@
 // Various navs (main + letters)
 
-.letter-nav {
+.navigation {
   @include align-items(center);
   @include display(flex);
-  @include justify-content(center);
   @include transition(all 0.3s ease);
 
-  background-color: $brand-primary; 
-  height: 10px;
+  border-bottom: 1px solid rgba(151, 151, 151, 53); // $brand-gray-dark
   width: 100%;
-  
-  a {
-    color: white;
-    opacity: 0;
+
+  ol {
+    li {
+      font-family: $sans-serif-display;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      float: left;
+      list-style-type: none;
+      padding: 10px 15px;
+    }
   }
 
-  &:hover {
-    height: 30px;
+  a {
+    color: $brand-gray;
 
-    a {
-      opacity: 1;
+    &.active {
+      color: $brand-black;
     }
   }
 }
