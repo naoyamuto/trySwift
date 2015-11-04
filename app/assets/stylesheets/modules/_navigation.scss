@@ -3,28 +3,61 @@
 .navigation {
   @include align-items(center);
   @include display(flex);
-  @include transition(all 0.3s ease);
 
   border-bottom: 1px solid rgba(151, 151, 151, 53); // $brand-gray-dark
   width: 100%;
 
   ol {
+    @include flex(0 1 70%);
+
+    padding: 10px 10px;
+
     li {
-      font-family: $sans-serif-display;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 1px;
       float: left;
       list-style-type: none;
-      padding: 10px 15px;
+      padding: 0 15px;
     }
   }
 
   a {
     color: $brand-gray;
+    font-family: $sans-serif-display;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    &:hover {
+      @include transition(all 0.3s ease);
+      
+      color: $brand-gray-dark;
+    }
 
     &.active {
       color: $brand-black;
+    }
+  }
+
+  .purchase-ticket {
+    @include flex(0 1 30%);
+    @include transition(all 0.3s ease);
+    @include justify-content(center);
+    @include align-self(stretch);
+
+    background-color: $brand-primary;
+
+    &:hover {
+      background-color: tomato;
+      cursor: pointer;
+    }
+
+    a {
+      @include flex(0 1 100%);
+      @include align-self(center);
+
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
