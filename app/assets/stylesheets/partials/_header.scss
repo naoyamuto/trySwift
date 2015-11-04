@@ -6,14 +6,27 @@
   
   background: image-url("twitter_banner.png") no-repeat left center fixed;
   background-color: $brand-primary; 
-  height: 400px;
+  height: 500px;
   width: 100%;
 
-  .container {
-    width: 30%;
+  .conference-callout {
+    @include flex(0 1 35%);
+    @include align-self(center);
+
+    padding-right: 5%;
+    text-align: center;
   }
 
   .conference-title {
+    @include flex(0 1 100%);
+
     color: white;
+    font-family: $sans-serif-display;
+  }
+
+  .conference-description {
+    @include flex(0 1 100%);
+
+    color: $brand-gray;
   }
 }

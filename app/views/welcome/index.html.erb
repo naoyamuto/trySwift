@@ -1,123 +1,160 @@
 <%= render template: "layouts/application" %>
 
 <header class='header'>
-  <img src="/images/blank.gif" class="lazy" data-src="/images/full-size.jpg" width="100%" height="400px">
-  <div class='container'>
+  <div class='conference-callout'>
     <h1 class='conference-title'>try! Swift</h1>
+    <p class='conference-description'><em>try! Swift</em> is conference all about Swift and why you should be using it if you’re not already happening <strong>March 14th-16th</strong> in the wonderful <strong>Something Labs</strong> in <strong>Tokyo, Japan</strong>.</p>
   </div>
 </header>
 
-<section class='speakers container'>
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('adambell.jpg', :alt => 'Adam Bell, speaker') %>
-      <figcaption>
-        <h2>Adam Bell</h2>
-        <a href='https://twitter.com/b3ll' class='speaker-job-desc'>@b3ll</a>, Engineer on <a href='https://itunes.apple.com/ca/app/artpop/id686145398?mt=8'>Artpop</a>
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
+<section class='speakers'>
+  <div class='section-header'>
+    <h1>Speakers</h1>
   </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('ayaka.jpg', :alt => 'Ayaka Nonaka, speaker') %>
-      <figcaption>
-        <h2>Ayaka Nonaka</h2>
-        <a href='https://twitter.com/ayanonagon' class='speaker-job-desc'>@ayanonagon</a>, Engineer at Venmo
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+  <div class='container'>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('adambell.jpg', :alt => 'Adam Bell, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Adam Bell</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/b3ll'>@b3ll</a>, Engineer on <a href='https://itunes.apple.com/ca/app/artpop/id686145398?mt=8'>Artpop</a>
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('boris.jpg', :alt => 'Boris Bügling, speaker') %>
-      <figcaption>
-        <h2>Boris Bügling</h2>
-        <a href='https://twitter.com/neonacho' class='speaker-job-desc'>@NeoNacho</a>, Engineer at Contentful
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('ayaka.jpg', :alt => 'Ayaka Nonaka, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Ayaka Nonaka</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/ayanonagon'>@ayanonagon</a>, Engineer at Venmo
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('cate.jpg', :alt => 'Cate Hudson, speaker') %>
-      <figcaption>
-        <h2>Cate Hudson</h2>
-        <a href='https://twitter.com/catehstn' class='speaker-job-desc'>@catehstn</a>, Developer and Entrepreneur
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('boris.jpg', :alt => 'Boris Bügling, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Boris Bügling</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/neonacho'>@NeoNacho</a>, Engineer at Contentful
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('chris.png', :alt => 'Chris Eidhof, speaker') %>
-      <figcaption>
-        <h2>Chris Eidhof</h2>
-        <a href='https://twitter.com/chriseidhof?lang=en' class='speaker-job-desc'>@chriseidhof</a>, Creator of <em>Functional Swift</em>
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('cate.jpg', :alt => 'Cate Hudson, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Cate Hudson</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/catehstn'>@catehstn</a>, Developer and Entrepreneur
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('daniel.jpg', :alt => 'Daniel Haight, speaker') %>
-      <figcaption>
-        <h2>Daniel Haight</h2>
-        <a href='https://twitter.com/daniel1of1' class='speaker-job-desc'>@Daniel1of1</a>, iOS dev, organizers of @NSLondon
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('chris.png', :alt => 'Chris Eidhof, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Chris Eidhof</h2>
+          <div class='speaker-job-desc'><a href=
+            'https://twitter.com/chriseidhof?lang=en'>@chriseidhof</a>, Creator of <em>Functional Swift</em>
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('danieleggert.jpg', :alt => 'Daniel Eggert, speaker') %>
-      <figcaption>
-        <h2>Daniel Eggert</h2>
-        <a href='https://twitter.com/danielboedewadt' class='speaker-job-desc'>@danielboedewadt</a>, iOS Engineer
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('daniel.jpg', :alt => 'Daniel Haight, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Daniel Haight</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/daniel1of1'>@Daniel1of1</a>, organizer of @NSLondon
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('diana.jpg', :alt => 'Diana Zmuda, speaker') %>
-      <figcaption>
-        <h2>Diana Zmuda</h2>
-        <a href='https://twitter.com/dazmuda' class='speaker-job-desc'>@dazmuda</a>, Engineer at Thoughtbot
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('danieleggert.jpg', :alt => 'Daniel Eggert, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Daniel Eggert</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/danielboedewadt'>@danielboedewadt</a>, iOS Engineer
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('dimsumthinking.jpg', :alt => 'Daniel Steinberg, speaker') %>
-      <figcaption>
-        <h2>Daniel Steinberg</h2>
-        <a href='https://twitter.com/dimsumthinking' class='speaker-job-desc'>@dimsumthinking</a>, Founder of Dim Sum Thinking
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('diana.jpg', :alt => 'Diana Zmuda, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Diana Zmuda</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/dazmuda'>@dazmuda</a>, Engineer at Thoughtbot
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
-  <div class='speaker'>
-    <figure>
-      <%= image_tag('hectormatos.jpg', :alt => 'Hector Matos, speaker') %>
-      <figcaption>
-        <h2>Hector Matos</h2>
-        <a href='https://twitter.com/allonsykraken' class='speaker-job-desc'>@allonsykraken</a>, Engineer at Capital One
-        <p class='speaker-description'>
-        </p>
-      </figcaption>
-  </div>
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('dimsumthinking.jpg', :alt => 'Daniel Steinberg, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Daniel Steinberg</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/dimsumthinking'>@dimsumthinking</a>, Founder of Dim Sum Thinking
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
 
+    <div class='speaker'>
+      <figure>
+        <%= image_tag('hectormatos.jpg', :alt => 'Hector Matos, speaker') %>
+        <figcaption>
+          <h2 class='speaker-name'>Hector Matos</h2>
+          <div class='speaker-job-desc'>
+            <a href='https://twitter.com/allonsykraken'>@allonsykraken</a>, Engineer at Capital One
+          </div>
+          <p class='speaker-description'>
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <a href="#see-more">See More Speakers</a>
+  </div>
 </section>
 
 <section class='schedule'></section>

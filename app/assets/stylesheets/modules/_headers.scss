@@ -1,28 +1,15 @@
-.drop-cap {
-  display: inline;
-  float: left;
-  font-size: $h1-font-size * 1.5;
-  font-weight: $light-weight;
-  margin-right: 0.25em;
-}
+.section-header {
+  @include flex(0 1 100%); // sections are flexbox
+  @include linear-gradient($brand-primary, white);
 
-h4 {
-  color: $brand-black;
-  font-family: $sans-serif;
-  font-size: $h3-font-size;
-  margin: 0;
+  color: white;
+  font-family: $sans-serif-display;
+  height: 150px;
+  text-align: center;
   text-transform: uppercase;
 
-  &:after {
-    background-color: $brand-gray;
-    border-bottom-width: 1px;
-    border-bottom-style: dashed;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-color: $brand-gray-light;
-    content: '';
-    display: block;
-    height: 8px;
-    margin-top: 0.25em;
+  h1 {
+    @include flex(0 1 100%);
+    @include align-self(center);
   }
 }
