@@ -4,7 +4,11 @@
   @include align-items(center);
   @include display(flex);
 
+  background-color: white;
+  border-bottom: 1px solid $brand-primary;
+  position: fixed;
   width: 100%;
+  z-index: 1;
 
   ol {
     @include flex(0 1 80%);

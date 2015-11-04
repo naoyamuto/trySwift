@@ -12,8 +12,21 @@
 .speaker {
   @include flex (0 1 33%);
 
+  &:hover {
+    img {
+      border: 1px solid $brand-primary;
+      @include filter(grayscale(0%));
+    }
+  }
+
   img {
+    @include display(flex);
+    @include filter(grayscale(75%));
+    @include justify-content(center);
+    @include transition(all 0.3s ease);
+
     border-radius: 50%;
+    border: 4px solid $brand-primary;
     max-width: 50%;
     width: 50%;
   }
