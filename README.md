@@ -22,7 +22,7 @@ This section should be easy to read to get the details. So it should just be:
 * http://www.openmobilemedia.com/tokyo/
 
 ## [Get your ticket now!]()
-We'll need to set up an eventbrite page
+* For the design part, just have a "Buy Ticket" button. I'll add the link to redirect to the proper Eventbrite / ticket service page. 
 
 ## Diversity Scholarships
 
@@ -31,8 +31,10 @@ We'll need to set up an eventbrite page
 
 ## Code of Conduct
 
+* For the Design, just have a link to the Code of Code and I'll put in the link. 
 * We can copy this one for now: https://github.com/iosdevcampdc/iosdevcampdc15. 
 * I've set up an email info@tryswiftconf.com
+
 
 
 ## Convince Your Boss
