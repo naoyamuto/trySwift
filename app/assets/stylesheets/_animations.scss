@@ -1,0 +1,53 @@
+// Animations.
+
+@mixin keyframe($animation) {
+  @-webkit-keyframes #{$animation} {
+    @content;
+  }
+
+  @-moz-keyframes #{$animation} {
+    @content;
+  }
+
+  @keyframes #{$animation} {
+    @content;
+  }
+}
+
+@include keyframe(fade-in) {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframe(fade-in-and-up) {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@include keyframe(link-underlines) {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+    border-bottom-color: white;
+    border-top-color: white;
+  }
+  50% {
+    border-bottom-color: white;
+    border-top-color: $brand-primary;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(2px);
+    border-bottom-color: $brand-primary;
+  }
+}

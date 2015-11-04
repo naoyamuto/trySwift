@@ -1,0 +1,186 @@
+// Callouts on the portfolio page (huge images)
+
+.project {
+  .container {
+    @include align-items(center);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+  }
+
+  .well-made-images ~ p {
+    @include flex(0 1 100%);
+
+    padding-left: 10%;
+
+    @include media($nine-col) {
+      @include flex(0 1 50%);
+    }
+  }
+
+  p {
+    @include flex(0 1 100%);
+
+    margin: 10% auto;
+    
+    @include media($nine-col) {
+      @include flex(0 1 65%);
+    }
+
+    img, video {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.callout {
+  @include flex(0 1 100%);
+
+  position: relative;
+
+  img, video {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  p {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    width: 100%;
+    z-index: 2; 
+
+    @include media($nine-col) {
+      top: 80%;
+    }
+  }
+}
+
+.project-description {
+  border-bottom: 1px solid $brand-primary;
+  padding: 3em inherit;
+
+  @include media($nine-col) {
+    padding: 6em inherit;
+  }
+}
+
+.project-blurb {
+  @include flex(0 1 100%);
+
+  p {
+    margin: 2% auto;
+  }
+
+  @include media($nine-col) {
+    @include flex(0 1 65%);
+  }
+}
+
+.detail {
+  @include flex(0 1 20%);
+
+  display: none;
+
+  @include media($nine-col) {
+    display: block;
+  }
+
+  img {
+    border: 1px solid $brand-primary;
+    max-width: 100%;
+    padding: 2%;
+  }
+}
+
+.project-detail-100 {
+  @include align-self(flex-start);
+  @include flex(0 1 100%);
+
+  margin-top: 10%;
+}
+
+.project-detail-50 {
+  @include align-self(flex-start);
+  @include flex(0 1 100%);
+
+  margin-top: 10%;
+  min-height: 250px;
+  position: relative;
+
+  @include media($nine-col) {
+    @include flex(0 1 48%);
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  &.winsome {
+    @include display(flex);
+    @include justify-content(center);
+
+    background-color: dodgerblue;
+    min-height: 300px;
+    position: relative;
+
+    &:nth-of-type(3) {
+      background-color: dodgerblue; 
+    }
+  }
+}
+
+.project-detail-third {
+  @include flex(0 1 100%);
+
+  margin-top: 10%;
+  
+  @include media($nine-col) {
+    @include flex(0 1 30%);
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.well-made-images {
+  @include flex(0 1 100%);
+
+  margin: 10% 0;
+  
+  @include media($nine-col) {
+    @include flex(0 1 50%);
+  }
+
+  .project-detail-third {
+    float: left;
+    width: 100%;
+
+    @include media($nine-col) {
+      width: 50%;
+    }
+
+    &:nth-of-type(2) {
+      float: left;
+      margin-top: 15%;
+      width: 100%;
+      
+      @include media($nine-col) {
+        width: 50%;
+      }
+    }
+
+    &:nth-of-type(3) {
+      float: left;
+      margin-top: 15%;
+      width: 100%;
+
+      @include media($nine-col) {
+        width: 35%;
+        margin-top: -1.75%;
+      }
+    }
+  }
+}
