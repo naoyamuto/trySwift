@@ -8,7 +8,7 @@
   width: 100%;
 
   ol {
-    @include flex(0 1 70%);
+    @include flex(0 1 80%);
 
     padding: 10px 10px;
 
@@ -25,10 +25,11 @@
     font-weight: 900;
     text-transform: uppercase;
 
-    &:hover {
+    &:hover, &:active {
       @include transition(all 0.3s ease);
-      
+
       color: $brand-gray-dark;
+      outline: 0;
     }
 
     &.active {
@@ -37,7 +38,7 @@
   }
 
   .purchase-ticket {
-    @include flex(0 1 30%);
+    @include flex(0 1 20%);
     @include transition(all 0.3s ease);
     @include justify-content(center);
     @include align-self(stretch);
@@ -50,10 +51,11 @@
     }
 
     a {
-      @include flex(0 1 100%);
-      @include align-self(center);
+      @include display(flex);
+      @include justify-content(center);
 
       color: white;
+      padding: 22px 40px;
 
       &:hover {
         text-decoration: none;

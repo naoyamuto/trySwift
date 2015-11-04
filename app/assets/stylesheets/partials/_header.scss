@@ -2,14 +2,11 @@
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(flex-end);
-
-  border-bottom: 1px solid $brand-primary;
-  font-family: $sans-serif;
-  height: 120px;
-
-  @include media($nine-col) {
-    height: 80px;
-  }
+  
+  background: url("../images/twitter_banner.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  background-color: $brand-primary; 
 
   .container {
     max-width: 805px;
