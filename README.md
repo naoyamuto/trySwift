@@ -62,4 +62,4 @@ This section should be easy to read to get the details. So it should just be:
 - [X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
 - [ ] Set up an Eventbrite page 
 - [ ] Get photos, bio, twitter handle for organizers
-— [ ] Hook up speaker model with front end
+- [ ] Hook up speaker model with front end
