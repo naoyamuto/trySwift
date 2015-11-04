@@ -1,5 +1,5 @@
 # try! Swift conference site
-_try! Swift_ is conference all about Swift and why you should be using it if you’re not already happening **March 2nd-4th** in the wonderful **Something Labs** in **Tokyo, Japan**.
+_try! Swift_ is conference all about Swift and why you should be using it! Come have a great time meeting new people, learning new technologies, and eating delicious food with us **March 2nd-4th** in wonderful **Tokyo, Japan**.
 
 This section should be easy to read to get the details. So it should just be: 
 

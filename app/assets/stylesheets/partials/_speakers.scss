@@ -1,0 +1,20 @@
+.speakers {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+
+  &.container {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+.speaker {
+  @include flex (0 1 33%);
+
+  img {
+    border-radius: 50%;
+    max-width: 50%;
+    width: 50%;
+  }
+}
