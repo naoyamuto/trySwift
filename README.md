@@ -7,6 +7,7 @@ This section should be easy to read to get the details. So it should just be:
 * Meet, Learn, Eat (we need a clever tagline like this)
 * March 2nd - 4th
 * Tokyo, Japan (still ironing out the venue - looking for a bigger one at the moment, so just Tokyo is fine)
+* [Follow us on Twitter!](https://twitter.com/tryswiftconf)
 
 ## Other Conference Websites for Inspiration
 
