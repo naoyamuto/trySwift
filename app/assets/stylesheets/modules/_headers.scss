@@ -5,11 +5,12 @@
   color: white;
   font-family: $sans-serif-display;
   height: 150px;
+  margin-top: 5%;
+  padding-top: 3%;
   text-align: center;
   text-transform: uppercase;
 
   h1 {
     @include flex(0 1 100%);
-    @include align-self(center);
   }
 }
