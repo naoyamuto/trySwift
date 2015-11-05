@@ -26,6 +26,7 @@ This section should be easy to read to get the details. So it should just be:
 * For the design part, just have a "Buy Ticket" button. I'll add the link to redirect to the proper Eventbrite / ticket service page. 
 
 ## Code of Conduct
+We're committed to providing a safe space for all of our attendees, speakers, and volunteers. Our Code of Conduct can be read in full []on Github](). We encourage everyone to read it in full to gain an understanding of what everyone should do and expect to have a great time at _try! Swift_.
 
 * For the Design, just have a link to the Code of Code and I'll put in the link. 
 * We can copy this one for now: https://github.com/iosdevcampdc/iosdevcampdc15. 
