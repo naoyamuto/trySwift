@@ -23,7 +23,10 @@ This section should be easy to read to get the details. So it should just be:
 * http://www.openmobilemedia.com/tokyo/
 
 ## [Get your ticket now!]()
-* For the design part, just have a "Buy Ticket" button. I'll add the link to redirect to the proper Eventbrite / ticket service page. 
+* For the design part, just have a "Buy Ticket" button. I'll add the link to redirect to the proper Eventbrite / ticket service page.
+
+## Speaker Info
+[Check out the site]() to see all of the awesome speakers we have lined up to speak.
 
 ## Code of Conduct
 We're committed to providing a safe space for all of our attendees, speakers, and volunteers. Our Code of Conduct can be read in full [on Github](coc.md). We encourage everyone to read it in full to gain an understanding of what everyone should do and expect to have a great time at _try! Swift_.
@@ -34,13 +37,11 @@ Schedule is still actively being created! Please check back for an exciting brea
 ## Date and Location
 This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still being sorted out—follow us [on Twitter]() and check this site to see updates! And email will also go out when location is updated.
 
-## Sponsors
-* logos for sponsors
+## Contact
+### Organizers
+* Everyone in the Slack channel. I'll get bios / photos / twitter 
 * Currently, the only sponsor is Realm - https://realm.io/
 * If the want to sponsor, they can just email info@tryswiftconf.com. We'll add a download so they can see sponsorship options in a bit.
-
-## Organizers
-* Everyone in the Slack channel. I'll get bios / photos / twitter handles 
 
 ## Installation instructions
 1. ```git clone``` the repository
@@ -53,10 +54,6 @@ This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still 
 8. ```rake db:create_all``` to create the database
 9. ```rake db:migrate``` to generate the database tables
 10. ```rake db:setup``` adds the seed data to the database
-
-## Speaker Info
-* There is now a `Speaker` table / model. 
-* Only Speakers who have `announced` set to `true` should be displayed 
 
 ## To-Dos
 - [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
