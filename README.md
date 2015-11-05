@@ -56,9 +56,14 @@ This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still 
 10. ```rake db:setup``` adds the seed data to the database
 
 ## To-Dos
-- [X] Email speakers and ask for large photos of themselves they'd like to see on the site + bios 
-- [ ] Design the header
-- [X] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
-- [ ] Set up an Eventbrite page 
+- [ ] Update twitter account with new banner (```assets/images/twitter_banner.png```, I think)
+- [ ] Set up Eventbrite page 
 - [ ] Get photos, bio, twitter handle for organizers
-- [ ] Hook up speaker model with front end
+- [ ] Hook up organizer model with front end
+- [ ] Correct links to Eventbrite
+
+## Done!
+- [x] Email speakers and ask for large photos of themselves they'd like to see on the site + bios
+- [x] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
+- [x] Design the header
+- [x] Hook up speaker model with front end
