@@ -1,0 +1,14 @@
+.coc, .schedule {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+
+  margin-top: 5%;
+  margin-bottom: 15%;
+
+  .container {
+    margin: auto;
+    padding-top: 3%;
+    width: 60%;
+  }
+}

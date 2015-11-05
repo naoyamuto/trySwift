@@ -28,10 +28,11 @@ This section should be easy to read to get the details. So it should just be:
 ## Code of Conduct
 We're committed to providing a safe space for all of our attendees, speakers, and volunteers. Our Code of Conduct can be read in full [on Github](coc.md). We encourage everyone to read it in full to gain an understanding of what everyone should do and expect to have a great time at _try! Swift_.
 
-* For the Design, just have a link to the Code of Code and I'll put in the link. 
-* We can copy this one for now: https://github.com/iosdevcampdc/iosdevcampdc15. 
-* I've set up an email info@tryswiftconf.com
+## Schedule
+Schedule is still actively being created! Please check back for an exciting breakdown of _try! Swift_.
 
+## Date and Location
+This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still being sorted out—follow us [on Twitter]() and check this site to see updates! And email will also go out when location is updated.
 
 ## Sponsors
 * logos for sponsors
