@@ -12,22 +12,14 @@ Sexual language and imagery is not appropriate during talks. Refrain from using 
 
 Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 
+## Action
+
+If you are being harassed, notice someone else that is being harassed, or have any other concerns, please flag down a member of the _try! Swift_ staff. Alternatively, if you feel you need to do this privately, please email [info@tryswiftconf.com](mailto:info@tryswiftconf.com).
  
+_try! Swift_ staff can be identified by t-shirts or will be stationed at reception/check-in of the venue.
 
-Action
+## License
 
-If you are being harassed, notice someone else that is being harassed, or have any other concerns, please contact a member of the iOSDevCampDC staff immediately.
+This Code of Conduct was forked from iOSDevCampDC, which was forked from Droidcon NYC 2015, which was in turnforked from Droidcon India 2014, which in turn was forked from the PyCon US Code of Conduct, which in turn was forked from the Geek Feminism wiki, created by the Ada Initiative and other volunteers and available under a creative Commons Zero license.
 
- 
-
-iOSDevCampDC staff can be identified by t-shirts or will be stationed at reception/check-in of the venue. Contact email: info@iosdevcampdc.com
-
- 
-
-License
-
-This Code of Conduct was forked from Droidcon NYC 2015, which was in turnforked from Droidcon India 2014, which in turn was forked from the PyCon US Code of Conduct, which in turn was forked from the Geek Feminism wiki, created by the Ada Initiative and other volunteers and available under a creative Commons Zero license.
-
- 
-
-The Conference Code of Conduct for iOSDevCampDC 2015 is licensed under a Creative Commons Attribution 3.0 Unported License.
+The Conference Code of Conduct for _try! Swift_ 2015 is licensed under a Creative Commons Attribution 3.0 Unported License.
