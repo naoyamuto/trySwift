@@ -40,10 +40,13 @@ This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still 
 
 ## To-Dos
 - [ ] Update twitter account with new banner (```assets/images/twitter_banner.png```, I think)
-- [ ] Set up Eventbrite page 
 - [ ] Get photos, bio, twitter handle for organizers
+- [ ] Make it responsive
+- [ ] Make "Sponsor" button next to "buy tickets" button
 
 ## Done!
+- [x] Remove links from menu
+- [x] Set up Eventbrite page 
 - [x] Hook up organizer model with front end
 - [x] Correct links to Eventbrite
 - [x] Email speakers and ask for large photos of themselves they'd like to see on the site + bios
