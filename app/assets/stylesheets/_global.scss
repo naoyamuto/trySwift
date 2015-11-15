@@ -24,11 +24,16 @@ html {
 
   clear: both;
   margin: auto;
-  width: 70%;
+  text-align: justify;
+  width: 65%;
 }
 
 .upside-down {
   @include transform(rotate(190deg));
 
   display: inline-block;
+}
+
+img {
+  width: 100%;
 }

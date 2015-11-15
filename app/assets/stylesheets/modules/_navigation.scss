@@ -12,10 +12,16 @@
   z-index: 1;
 
   ol {
-    @include flex(0 1 80%);
+    @include flex(0 1 55%);
 
     padding: 10px 10px;
-    padding-left: 50px;
+    padding-left: 10px;
+
+    @include media($nine-col) {
+      @include flex(0 1 80%);
+
+      padding-left: 50px;
+    }
 
     li {
       float: left;
@@ -43,12 +49,19 @@
   }
 
   .purchase-ticket {
-    @include flex(0 1 20%);
+    @include flex(0 1 45%);
     @include transition(all 0.3s ease);
     @include justify-content(center);
     @include align-self(stretch);
 
     background-color: $brand-primary;
+    padding-top: 3%;
+
+    @include media($nine-col) {
+      @include flex(0 1 20%);
+
+      padding-top: 0;
+    }
 
     &:hover, &:active {
       background-color: tomato;

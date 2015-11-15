@@ -3,18 +3,31 @@
   @include flex-wrap(wrap);
   @include justify-content(flex-end);
   @include transition(all 0.5s ease);
-  
-  background: image-url("twitter_banner.png") no-repeat left center fixed;
-  background-color: $brand-primary; 
-  height: 600px;
+
+  background-color: #B1410E; 
+  height: 550px;
   width: 100%;
+  
+  @include media($nine-col) {
+    background: image-url("twitter_banner.png") no-repeat left center fixed;
+    background-color: $brand-primary;
+    height: 600px;
+  }
 
   .conference-callout {
-    @include flex(0 1 35%);
+    @include flex(0 1 90%);
     @include align-self(center);
 
-    padding-right: 5%;
+    padding-right: 10%;
+    padding-top: 18%;
     text-align: center;
+
+    @include media($nine-col) {
+      @include flex(0 1 35%);
+
+      padding-right: 5%;
+      padding-top: 0;
+    }
   }
 
   .conference-title {

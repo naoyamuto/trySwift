@@ -1,4 +1,4 @@
-.coc, .schedule, .speakers, .buy-ticket, .location {
+.coc, .schedule, .speakers, .buy-ticket, .date-location {
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(space-around);
@@ -15,4 +15,14 @@
 
 .speakers {
   margin-top: 0;
+}
+
+.buy-ticket, .date-location {
+  .container {
+    width: 90%;
+
+    @include media($nine-col) {
+      width: 60%;
+    }
+  }
 }
