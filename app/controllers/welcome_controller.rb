@@ -5,5 +5,6 @@ class WelcomeController < ActionController::Base
 
   def index
     @speakers = Speaker.all
+    @organizers = Organizer.all
   end
 end

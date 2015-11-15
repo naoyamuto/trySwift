@@ -21,7 +21,7 @@
             <figcaption>
               <h2 class='speaker-name'><%= speaker.name %></h2>
               <div class='speaker-job-desc'>
-                <a href='https://twitter.com/<%= speaker.twitter %>'>@<%= speaker.twitter %></a>
+                <a href='https://twitter.com/<%= speaker.twitter %>' target="_blank">@<%= speaker.twitter %></a>
               </div>
               <p class='speaker-description'>
                 <%= speaker.bio %>
@@ -65,8 +65,27 @@
     <p>This year's <em>try! Swift</em> will take place in <strong>Tokyo, Japan</strong>. Location is still being sorted out—follow us <a href='https://twitter.com/tryswiftconf'>on Twitter</a> and check this site to see updates! And email will also go out when location is updated.</p>
 </section>
 
-<section class='organizers'>
+<section class='speakers' id='speakers'>
+  <div class='section-header'>
+    <h1>Organizers</h1>
+  </div>
 
+  <div class='container'>
+    <% @organizers.each do |organizer| %>
+
+            <div class='speaker'>
+              <figure>
+                <%= image_tag("organizers/#{organizer.photo}", :alt => organizer.name) %>
+                <figcaption>
+                  <h2 class='speaker-name'><%= organizer.name %></h2>
+                  <div class='speaker-job-desc'>
+                    <a href='https://twitter.com/<%= organizer.twitter %>' target="_blank">@<%= organizer.twitter %></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+        <% end %>
+  </div>
 </section>
 
 <section class='contact'></section>
