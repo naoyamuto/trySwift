@@ -1,13 +1,10 @@
 # try! Swift conference site
+_Meet, Learn, Eat_
+**March 2nd - 4th, 2016**
+Tokyo, Japan
+[@tryswiftconf](https://twitter.com/tryswiftconf)
+
 _try! Swift_ is conference all about Swift and why you should be using it! Come have a great time meeting new people, learning new technologies, and eating delicious food with us **March 2nd-4th** in wonderful **Tokyo, Japan**.
-
-This section should be easy to read to get the details. So it should just be: 
-
-* try! Swift
-* Meet, Learn, Eat (we need a clever tagline like this)
-* March 2nd - 4th
-* Tokyo, Japan (still ironing out the venue - looking for a bigger one at the moment, so just Tokyo is fine)
-* [Follow us on Twitter!](https://twitter.com/tryswiftconf)
 
 ## Other Conference Websites for Inspiration
 
@@ -59,10 +56,10 @@ This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still 
 - [ ] Update twitter account with new banner (```assets/images/twitter_banner.png```, I think)
 - [ ] Set up Eventbrite page 
 - [ ] Get photos, bio, twitter handle for organizers
-- [ ] Hook up organizer model with front end
-- [ ] Correct links to Eventbrite
 
 ## Done!
+- [x] Hook up organizer model with front end
+- [x] Correct links to Eventbrite
 - [x] Email speakers and ask for large photos of themselves they'd like to see on the site + bios
 - [x] Start twitter account, add logo assets to twitter profile (```assets/images/try_swift_logo.png```)
 - [x] Design the header

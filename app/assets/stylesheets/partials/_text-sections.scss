@@ -1,4 +1,4 @@
-.coc, .schedule {
+.coc, .schedule, .speakers, .buy-ticket, .location {
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(space-around);
@@ -11,4 +11,8 @@
     padding-top: 3%;
     width: 60%;
   }
+}
+
+.speakers {
+  margin-top: 0;
 }
