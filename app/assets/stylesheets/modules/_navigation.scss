@@ -56,6 +56,8 @@
 
     background-color: $brand-primary;
     padding-top: 3%;
+    overflow: hidden;
+    max-height: 100px;
 
     @include media($nine-col) {
       @include flex(0 1 20%);
@@ -63,9 +65,47 @@
       padding-top: 0;
     }
 
-    &:hover, &:active {
+    .one, .two {
+      a {
+        @include transform(rotate(30deg));
+      }
+    }
+
+    .one {
+      @include transform(rotate(-30deg));
+      @include transition(all 0.3s ease);
+
+      margin-left: -45%;
+      margin-top: -30%;
+      padding-top: 19%;
+      height: 100px;
+
+      &:hover, &:active {
+        background-color: tomato;
+        cursor: pointer;
+        outline: 1px solid $brand-primary;
+      }
+    }
+
+    .two {
+      @include transform(rotate(-30deg));
+      @include transition(all 0.3s ease);
+
       background-color: tomato;
-      cursor: pointer;
+      height: 150px;
+      margin-left: -8%;
+      margin-top: -10%;
+      width: 150%;
+
+      &:hover, &:active {
+        background-color: $brand-primary;
+        cursor: pointer;
+        outline: 1px solid tomato;
+      }
+
+      a {
+        padding-top: 9%;
+      }
     }
 
     a {
