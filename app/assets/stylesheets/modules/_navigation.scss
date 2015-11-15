@@ -80,6 +80,17 @@
       padding-top: 19%;
       height: 100px;
 
+      @include media($nine-col) {
+        margin-top: -20%;
+        margin-left: -30%;
+
+        a {
+          margin-left: -9%;
+          padding-left: 0;
+          margin-top: -2%;
+        }
+      }
+
       &:hover, &:active {
         background-color: tomato;
         cursor: pointer;
