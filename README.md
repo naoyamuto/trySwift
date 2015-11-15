@@ -6,21 +6,7 @@ Tokyo, Japan
 
 _try! Swift_ is conference all about Swift and why you should be using it! Come have a great time meeting new people, learning new technologies, and eating delicious food with us **March 2nd-4th** in wonderful **Tokyo, Japan**.
 
-## Other Conference Websites for Inspiration
-
-* http://www.awssummit.tokyo/
-* http://iosdevcampdc.com/
-* http://do-ios.com/#!/home
-* https://www.swiftsummit.com/
-* http://aceat.org/ 
-* http://tech.rakuten.co.jp/
-* http://sedt.org/
-* http://10times.com/computer-animation-festival
-* http://10times.com/iccssnit-tokyo
-* http://www.openmobilemedia.com/tokyo/
-
 ## [Get your ticket now!]()
-* For the design part, just have a "Buy Ticket" button. I'll add the link to redirect to the proper Eventbrite / ticket service page.
 
 ## Speaker Info
 [Check out the site]() to see all of the awesome speakers we have lined up to speak.
@@ -32,7 +18,7 @@ We're committed to providing a safe space for all of our attendees, speakers, an
 Schedule is still actively being created! Please check back for an exciting breakdown of _try! Swift_.
 
 ## Date and Location
-This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still being sorted out—follow us [on Twitter]() and check this site to see updates! And email will also go out when location is updated.
+This year's _try! Swift_ will take place in **Tokyo, Japan**. Location is still being sorted out—follow us [on Twitter](https://twitter.com/tryswiftconf) and check this site to see updates! And email will also go out when location is updated.
 
 ## Contact
 ### Organizers
