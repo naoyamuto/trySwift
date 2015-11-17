@@ -5,9 +5,9 @@
   @include transition(all 0.5s ease);
 
   background-color: #B1410E; 
-  height: 650px;
+  height: 500px;
   width: 100%;
-  
+
   @include media($nine-col) {
     background: image-url("twitter_banner.png") no-repeat left center fixed;
     background-color: $brand-dark-background;
@@ -19,7 +19,7 @@
     @include align-self(center);
 
     padding-right: 10%;
-    padding-top: 18%;
+    padding-top: 10%;
     text-align: center;
 
     @include media($nine-col) {
