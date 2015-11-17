@@ -36,13 +36,13 @@ var windowscrolllocation;
 $(window).scroll(function(){
   var windowscrolllocation = $(this).scrollTop();
   $('.putmehere').html(windowscrolllocation);
-  if (windowscrolllocation >= 0 && windowscrolllocation < 526)
+  if (windowscrolllocation >= 0 && windowscrolllocation < 500)
      {
       $('.js-home').addClass('active');
       } else {
       $('.js-home').removeClass('active');
               }
-  if (windowscrolllocation >= 526 && windowscrolllocation < 2155)
+  if (windowscrolllocation >= 500 && windowscrolllocation < 2155)
      {
       $('.js-speakers').addClass('active');
       } else {
@@ -68,19 +68,26 @@ $(window).scroll(function(){
       $('.js-location').removeClass('active');
               }
 
-    if (windowscrolllocation >= 4250 && windowscrolllocation < 5000)
+    if (windowscrolllocation >= 4250 && windowscrolllocation < 4750)
     {
         $('.js-sponsors').addClass('active');
     } else {
         $('.js-sponsors').removeClass('active');
     }
 
-  if (windowscrolllocation >= 5000 && windowscrolllocation < 5750)
-     {
-      $('.js-contact').addClass('active');
-      } else {
-      $('.js-contact').removeClass('active');
-              }
+    if (windowscrolllocation >= 4750 && windowscrolllocation < 5000)
+    {
+        $('.js-organizers').addClass('active');
+    } else {
+        $('.js-organizers').removeClass('active');
+    }
+
+    if (windowscrolllocation >= 5000 && windowscrolllocation < 6500)
+    {
+        $('.js-contact').addClass('active');
+    } else {
+        $('.js-contact').removeClass('active');
+    }
 
 
 
