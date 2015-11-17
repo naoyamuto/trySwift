@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>try! Swift</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<nav class='navigation'>
+  <ol>
+    <li><a href='#top' class='js-home'>ホーム</a></li>
+    <li><a href='#speakers' class='js-speakers'>講演者</a></li>
+    <!-- <li><a href='#schedule'>Schedule</a></li> -->
+    <li><a href='#coc' class='js-coc'>行動規範</a></li>
+    <li><a href='#tickets' class='js-tickets'>チケット</a></li>
+    <li><a href='#location' class='js-location'>会場</a></li>
+    <li><a href='#sponsors' class='js-sponsors'>スポンサー</a></li>
+    <li><a href='#organizers' class='js-organizers'>主催者</a></li>
+    <li><a href='#contact' class='js-contact'>お問い合わせ</a></li>
+  </ol>
+
+  <div class='purchase-ticket'>
+      <a href='#tickets' id='purchase-ticket'>チケットの購入</a>
+  </div>
+</nav>
+
+<div id='top'></div>
+
+<%= yield %>
+
+<script>
+var windowscrolllocation;
+
+$(window).scroll(function(){
+  var windowscrolllocation = $(this).scrollTop();
+  $('.putmehere').html(windowscrolllocation);
+  if (windowscrolllocation >= 0 && windowscrolllocation < 526)
+     {
+      $('.js-home').addClass('active');
+      } else {
+      $('.js-home').removeClass('active');
+              }
+  if (windowscrolllocation >= 526 && windowscrolllocation < 2155)
+     {
+      $('.js-speakers').addClass('active');
+      } else {
+      $('.js-speakers').removeClass('active');
+              }
+  if (windowscrolllocation >= 2155 && windowscrolllocation < 2595)
+     {
+      $('.js-coc').addClass('active');
+      } else {
+      $('.js-coc').removeClass('active');
+              }
+  if (windowscrolllocation >= 2595 && windowscrolllocation < 3305)
+     {
+      // buy tickets
+      $('.js-tickets').addClass('active');
+      } else {
+      $('.js-tickets').removeClass('active');
+              }
+  if (windowscrolllocation >= 3305 && windowscrolllocation < 4250)
+     {
+      $('.js-location').addClass('active');
+      } else {
+      $('.js-location').removeClass('active');
+              }
+
+    if (windowscrolllocation >= 4250 && windowscrolllocation < 5000)
+    {
+        $('.js-sponsors').addClass('active');
+    } else {
+        $('.js-sponsors').removeClass('active');
+    }
+
+  if (windowscrolllocation >= 5000 && windowscrolllocation < 5750)
+     {
+      $('.js-contact').addClass('active');
+      } else {
+      $('.js-contact').removeClass('active');
+              }
+
+
+
+});
+</script>
+
+</body>
+</html>

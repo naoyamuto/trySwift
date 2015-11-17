@@ -7,4 +7,9 @@ class WelcomeController < ActionController::Base
     @speakers = Speaker.all
     @organizers = Organizer.all
   end
+
+  def index_ja
+    @speakers = Speaker.all
+    @organizers = Organizer.all
+  end
 end
