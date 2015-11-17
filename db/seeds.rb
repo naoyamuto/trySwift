@@ -22,9 +22,9 @@ Speaker.create(name: "Yosuke Ishikawa", twitter: "_ishkawa", announced: true, ph
 Speaker.create(name: "Helen Holmes", twitter: "helenvholmes", announced: false, photo: "helen.jpg", bio: "Helen is a designer who figures anyone can learn to program with the right support. A big proponent of making tech a healthy community for all, she helped found Women Who Code DC’s chapter and has mentored at student hackathons all over the U.S. She’s currently at Mozilla helping make devtools a little better for everyone.")
 
 Organizer.create(name: "Natasha Murashev", twitter: "natashatherobot", photo: "natasha.jpg")
-Organizer.create(name: "Kishikawa Katsumi", twitter: "k_katsumi", photo: "kk.jpeg")
+Organizer.create(name: "Kishikawa Katsumi", twitter: "k_katsumi", photo: "kk.jpg")
 Organizer.create(name: "Vaishnavi Srinivasan", twitter: "vaish", photo: "vaish.jpg")
-Organizer.create(name: "Helen Holmes", twitter: "helenvholmes", photo: "helen.jpeg")
-Organizer.create(name: "Caesar Wirth", twitter: "cjwirth", photo: "caesar.jpeg")
+Organizer.create(name: "Helen Holmes", twitter: "helenvholmes", photo: "helen.jpg")
+Organizer.create(name: "Caesar Wirth", twitter: "cjwirth", photo: "caesar.jpg")
 Organizer.create(name: "Minwoo Park", twitter: "tebica", photo: "minwoo.JPG")
 #Organizer.create(name: "Hector Matos", twitter: "allonsykraken", photo: "hector.jpg")
