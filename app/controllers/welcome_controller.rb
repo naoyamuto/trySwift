@@ -3,12 +3,12 @@ class WelcomeController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-  def index
+  def index_en
     @speakers = Speaker.all
     @organizers = Organizer.all
   end
 
-  def index_ja
+  def index
     @speakers = Speaker.all
     @organizers = Organizer.all
   end
