@@ -37,3 +37,12 @@ html {
 img {
   width: 100%;
 }
+
+.realm-logo {
+  margin: auto;
+  width: 100%;
+
+  @include media($nine-col) {
+    width: 50%;
+  }
+}

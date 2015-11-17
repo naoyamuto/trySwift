@@ -11,10 +11,14 @@
 
 .speaker {
   @include align-self(flex-start);
-  @include flex (0 1 33%);
+  @include flex (0 1 100%);
 
   padding-top: 3%;
   text-align: center;
+
+  @include media($nine-col) {
+    @include flex (0 1 33%);
+  }
 
   &:hover { // controls our speaker image animation
     img {

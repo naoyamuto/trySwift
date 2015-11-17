@@ -14,12 +14,12 @@
   ol {
     @include flex(0 1 55%);
 
-    padding: 10px 10px;
     padding-left: 10px;
 
     @include media($nine-col) {
       @include flex(0 1 80%);
 
+      padding: 10px 10px;
       padding-left: 50px;
     }
 
