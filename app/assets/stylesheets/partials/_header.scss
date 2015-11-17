@@ -5,12 +5,12 @@
   @include transition(all 0.5s ease);
 
   background-color: #B1410E; 
-  height: 700px;
+  height: 650px;
   width: 100%;
   
   @include media($nine-col) {
     background: image-url("twitter_banner.png") no-repeat left center fixed;
-    background-color: $brand-primary;
+    background-color: $brand-dark-background;
     height: 600px;
   }
 
