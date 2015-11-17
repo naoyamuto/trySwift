@@ -27,4 +27,4 @@ Organizer.create(name: "Vaishnavi Srinivasan", twitter: "vaish", photo: "vaish.j
 Organizer.create(name: "Helen Holmes", twitter: "helenvholmes", photo: "helen.jpeg")
 Organizer.create(name: "Caesar Wirth", twitter: "cjwirth", photo: "caesar.jpeg")
 Organizer.create(name: "Minwoo Park", twitter: "tebica", photo: "minwoo.JPG")
-Organizer.create(name: "Hector Matos", twitter: "allonsykraken", photo: "hector.jpg")
+#Organizer.create(name: "Hector Matos", twitter: "allonsykraken", photo: "hector.jpg")
