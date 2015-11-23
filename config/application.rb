@@ -22,5 +22,8 @@ module SwiftJP
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.assets.precompile << "emoji/1f4a5.png"
+
   end
 end
