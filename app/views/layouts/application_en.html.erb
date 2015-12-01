@@ -36,61 +36,102 @@
 var windowscrolllocation;
 
 $(window).scroll(function(){
-  var windowscrolllocation = $(this).scrollTop();
-  $('.putmehere').html(windowscrolllocation);
-  if (windowscrolllocation >= 0 && windowscrolllocation < 500)
-     {
-      $('.js-home').addClass('active');
-      } else {
-      $('.js-home').removeClass('active');
-              }
-  if (windowscrolllocation >= 500 && windowscrolllocation < 2155)
-     {
-      $('.js-speakers').addClass('active');
-      } else {
-      $('.js-speakers').removeClass('active');
-              }
-  if (windowscrolllocation >= 2155 && windowscrolllocation < 2595)
-     {
-      $('.js-coc').addClass('active');
-      } else {
-      $('.js-coc').removeClass('active');
-              }
-  if (windowscrolllocation >= 2595 && windowscrolllocation < 3305)
-     {
-      // buy tickets
-      $('.js-tickets').addClass('active');
-      } else {
-      $('.js-tickets').removeClass('active');
-              }
-  if (windowscrolllocation >= 3305 && windowscrolllocation < 4250)
-     {
-      $('.js-location').addClass('active');
-      } else {
-      $('.js-location').removeClass('active');
-              }
+    var windowscrolllocation = $(this).scrollTop();
+    $('.putmehere').html(windowscrolllocation);
 
-    if (windowscrolllocation >= 4250 && windowscrolllocation < 4750)
+
+    var home = document.getElementById('top');
+    if (isScrolledIntoView(home))
     {
+        removeActiveFromAll()
+        $('.js-home').addClass('active');
+    } else {
+        $('.js-home').removeClass('active');
+    }
+
+    var speakers = document.getElementById("speakers");
+    if (isScrolledIntoView(speakers))
+    {
+        removeActiveFromAll()
+        $('.js-speakers').addClass('active');
+    } else {
+        $('.js-speakers').removeClass('active');
+    }
+
+    var coc = document.getElementById('coc');
+    if (isScrolledIntoView(coc))
+    {
+        removeActiveFromAll()
+        $('.js-coc').addClass('active');
+    } else {
+        $('.js-coc').removeClass('active');
+    }
+
+    var tickets = document.getElementById('tickets');
+    if (isScrolledIntoView(tickets))
+    {
+        removeActiveFromAll()
+        $('.js-tickets').addClass('active');
+    } else {
+        $('.js-tickets').removeClass('active');
+    }
+
+    var location = document.getElementById('location');
+    if (isScrolledIntoView(location))
+    {
+        removeActiveFromAll()
+        $('.js-location').addClass('active');
+    } else {
+        $('.js-location').removeClass('active');
+    }
+
+    var sponsors = document.getElementById('sponsors');
+    if (isScrolledIntoView(sponsors))
+    {
+        removeActiveFromAll()
         $('.js-sponsors').addClass('active');
     } else {
         $('.js-sponsors').removeClass('active');
     }
 
-    if (windowscrolllocation >= 4750 && windowscrolllocation < 5000)
+    var organizers = document.getElementById('organizers');
+    if (isScrolledIntoView(organizers))
     {
+        removeActiveFromAll()
         $('.js-organizers').addClass('active');
     } else {
         $('.js-organizers').removeClass('active');
     }
 
-    if (windowscrolllocation >= 5000 && windowscrolllocation < 6500)
+    var contact = document.getElementById('contact');
+    if (isScrolledIntoView(contact))
     {
+        removeActiveFromAll()
         $('.js-contact').addClass('active');
     } else {
         $('.js-contact').removeClass('active');
     }
 
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
+    }
+
+    function removeActiveFromAll() {
+        $('.js-home').removeClass('active');
+        $('.js-speakers').removeClass('active');
+        $('.js-coc').removeClass('active');
+        $('.js-tickets').removeClass('active');
+        $('.js-location').removeClass('active');
+        $('.js-sponsors').removeClass('active');
+        $('.js-organizers').removeClass('active');
+        $('.js-contact').removeClass('active');
+    }
 
 
 });
