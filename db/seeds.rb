@@ -7,9 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-Speaker.create(name: "Diana Zmuda", twitter: "dazmuda", announced: true, photo: "diana.jpg", bio: "Diana is an iOS developer at thoughtbot. She co-wrote a book about building mobile apps in tandem with APIs called iOS on Rails. She's also an instructor for App Camp for Girls, a summer camp where young girls learn how to write software. Occasionally, she tweets iOS related puns @dazmuda.", bio_ja: "")
-Speaker.create(name: "Syo Ikeda", twitter: "ikesyo", announced: true, photo: "syo.jpg", bio: "Syo Ikeda (a.k.a @ikesyo) is an independent iOS developer lives in Kyoto. He is the author of Himotoki, a type-safe JSON decoding library made of Swift, and also is contributing to several open source projects such as ReactiveCocoa and Carthage.", bio_ja: "")
-Speaker.create(name: "JP Simard", twitter: "simjp", announced: true, photo: "jpsimard.png", bio: "JP works at Realm on the Objective-C & Swift bindings, creator of jazzy (the documentation tool Apple forgot to release) and enjoys hacking on Swift tooling.", bio_ja: "")
+Speaker.create(name: "Diana Zmuda", twitter: "dazmuda", announced: true, photo: "diana.jpg", bio: "Diana is an iOS developer at thoughtbot. She co-wrote a book about building mobile apps in tandem with APIs called iOS on Rails. She's also an instructor for App Camp for Girls, a summer camp where young girls learn how to write software. Occasionally, she tweets iOS related puns @dazmuda.", bio_ja: "thoughtbotに所属しているiOSエンジニアです。iOS on Railsと呼ばれるAPIと連携するモバイルアプリ開発に関する書籍を共同執筆しました。また、App Camp for Girlsのインストラクターもしています。時折、iOS関連のジョークを@dazmudaにてツィートしています。")
+Speaker.create(name: "Syo Ikeda", twitter: "ikesyo", announced: true, photo: "syo.jpg", bio: "Syo Ikeda (a.k.a @ikesyo) is an independent iOS developer lives in Kyoto. He is the author of Himotoki, a type-safe JSON decoding library made of Swift, and also is contributing to several open source projects such as ReactiveCocoa and Carthage.", bio_ja: "京都在住のフリーランスiOSエンジニアです。（Twitter上では@ikesyoで知られています。）オープンソースの活動として、Himotoki（type-safeなJSONパーサーライブラリ）の開発やReactiveCocoaやCarthageといったオープンソースのプロジェクトにコントリビュートしています。")
+Speaker.create(name: "JP Simard", twitter: "simjp", announced: true, photo: "jpsimard.png", bio: "JP works at Realm on the Objective-C & Swift bindings, creator of jazzy (the documentation tool Apple forgot to release) and enjoys hacking on Swift tooling.", bio_ja: "Realmにて、Objective-CとSwiftのバインディングを担当しています。また、jazzy（Appleがリリースし忘れているドキュメンテーションツールw）の開発者でありSwiftのツールチェーンのハックを楽しんでいます。")
 
 
 Speaker.create(name: "Chris Eidhof", twitter: "chriseidhof", announced: true, photo: "chris.png", bio: "Chris is a Dutch software developer living in Berlin (Germany). He spends most of his time building iOS and Mac apps, such as Deckset and Scenery. He started UIKonf, objc.io, wrote a book about Functional Programming in Swift and is currently writing a book on Advanced Swift.", bio_ja: "ドイツ・ベルリンに住むオランダ人のソフトウェア開発者です。iOS/Macアプリ開発を中心に活動しており、DecksetやSceneryを開発しています。UIKonfやobjc.ioの立ち上げ、Functional Programming in Swift, Advanced Swift（現在、執筆中）の著者でもあります。")
@@ -35,4 +35,3 @@ Organizer.create(name: "Caesar Wirth", twitter: "cjwirth", photo: "caesar.jpg")
 Organizer.create(name: "Minwoo Park", twitter: "tebica", photo: "minwoo.JPG")
 Organizer.create(name: "Hector Matos", twitter: "allonsykraken", photo: "hector.jpg")
 Organizer.create(name: "Kazunobu Tasaka", twitter: "tasanobu", photo: "tasanobu.png")
-
