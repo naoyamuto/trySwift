@@ -23,11 +23,11 @@ Speaker.create(name: "Tim Oliver", twitter: "TimOliverAU", announced: true, phot
 Speaker.create(name: "Yasuhiro Inami", twitter: "inamiy", announced: true, photo: "inamiy.jpg", bio: "Yasuhiro is an iOS developer at LINE Corporation. While creating iPhone apps such as messenger, camera, news app in his work, he also spends time on making open source projects, e.g. ReactKit and SwiftTask. He is a big fan of Apple, Swift, and Hearthstone. You can find him at Battle.net or GitHub: https://github.com/inamiy .", bio_ja: "")
 Speaker.create(name: "Matthew Gillingham", twitter: "gillygize", announced: true, photo: "matthewg", bio: "Matthew Gillingham has been an iOS developer for seven years, working at Japanese companies such as Tonchidot, GREE, Mediweb, and Eventacular. He has also been organizing the Tokyo iOS Meetup, an international community of people making things on Apple platforms, for over five years.", bio_ja: "")
 Speaker.create(name: "Yuta Koshizawa", twitter: "koher", announced: true, photo: "koher.png", bio: "Yuta is an iOS developer at Qoncept. He is also developing an iOS app [articles.each {](articles-each.github.io) as his side project. His posts about Swift on Qiita, Japanese blogging service specialized for programming, are popular with iOS developers in Japan.", bio_ja: "")
+Speaker.create(name: "Ash Furrow", twitter: "ashfurrow", announced: true, photo: "ashfurrow.png", bio: "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography.", bio_ja: "")
 
 # Laura Savino?
 # Wayne Bishop
 # Jonathan Blocksom
-# Ash Furrow
 # Novall Khan
 # Stephanie Shupe
 # Wayne Bishop
