@@ -26,8 +26,8 @@ Speaker.create(name: "Matthew Gillingham", twitter: "gillygize", announced: true
 Speaker.create(name: "Yuta Koshizawa", twitter: "koher", announced: true, photo: "koher.png", bio: "Yuta is an iOS developer at Qoncept. He is also developing an iOS app [articles.each {](articles-each.github.io) as his side project. His posts about Swift on Qiita, Japanese blogging service specialized for programming, are popular with iOS developers in Japan.", bio_ja: "")
 Speaker.create(name: "Ash Furrow", twitter: "ashfurrow", announced: true, photo: "ashfurrow.png", bio: "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography.", bio_ja: "")
 
+
 # Laura Savino?
-# Wayne Bishop
 # Jonathan Blocksom
 # Novall Khan
 # Stephanie Shupe
