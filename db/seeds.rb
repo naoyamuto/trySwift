@@ -8,13 +8,20 @@
 
 
 # Laura Savino
-# Jonathan Blocksom
-# Novall Khan
-# Stephanie Shupe
 # Wayne Bishop
 # Maxim Cramer - wants to send a new bio
 
 # Speaker.create(name: "Maxim Cramer", twitter: "mennenia", announced: true, photo: "Maxim.jpg", bio: "Having shipped two featured apps at SwiftKey, Maxim is now lead mobile experience at PIE Mapping, effectively routing drivers amongst the maze of online orders and saving London cyclists from deadly truck collisions. Coming from both a design and development background, she loves observing people in their natural habitat, making technology that will serve them instead of the other way around. She also gets oddly excited about Swift’s closures. ", bio_ja: "２つの機能を持つSwiftKeyをリリースしており、複雑なオンライン注文を最適化し、トラック事故が酷いLondonのサイクリストを救うPIE Mapppingでモバイルエクスペリエンスのリードをしています。デザインと開発者のバックグラウンドを持っており、人の行動を観察し、技術が正しく人のために役立つようにすることに情熱を持っています。また、SwiftのClosureに以上に興奮しています。")
+# Speaker.create(name: "", twitter: "", announced: false, photo: ".jpg", bio: "", bio_ja: "")
+
+
+Speaker.create(name: "Stephanie Shupe", twitter: "steph_shupe", announced: false, photo: "stephanie.jpg", bio: "Stephanie Shupe is a Senior Software Engineer at Lookout and an Advisor to Women Who Code. She has years of experience in iOS and has recently gotten more involved with backend development. Stephanie is passionate about learning new things, and helping others learn and develop their skills.", bio_ja: "")
+Speaker.create(name: "Jonathan Blocksom", twitter: "jblocksom", announced: false, photo: "jonathan.jpg", bio: "Jonathan Blocksom is the iOS Platform Architect at Capital One and has been shipping apps for iOS since the store opened in 2008. Prior to joining Capital One, he was an instructor at the Big Nerd Ranch, where he taught Advanced iOS Programming and OpenGL. In addition to mobile development, Jonathan has a background in 3D graphics programming.", bio_ja: "")
+Speaker.create(name: "Novall Khan", twitter: "novallkhan", announced: false, photo: "novall.jpg", bio: "Novall is an iOS engineer at Splitwise where she’s worked on bringing bill-splitting to the Apple Watch, and has built delightful new features for the Splitwise iPhone app. Novall is also an HCI researcher, a contributor to the mental health & technology space, and advocates for writing code in the context of humans before computers.", bio_ja: "")
+
+
+
+
 
 Speaker.create(name: "Ash Furrow", twitter: "ashfurrow", announced: true, photo: "ashfurrow.jpg", bio: "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography.", bio_ja: "iOSエンジニアおよび著者としてArtsyで働くカナダ人です。多くのアプリを開発し、これまで4冊の書籍を出版しています。また、オープンソースのコントリビューターとしてコミュニティに関わっています。ブログでは、興味深いプログラミングのネタからフィルムカメラにまでおよぶ様々なトピックを扱っています。")
 Speaker.create(name: "Natalia Berdys", twitter: "batalia", announced: true, photo: "natalia.png", bio: "Natalia Berdys is the lead iOS Developer at Tutu Lab, an indie studio in Poland. Within 2 years, she managed to become a self-taught developer, get a Mobile Engineering degree, speak at Apple WWDC and take her apps to #1 in 47 countries. Since she also holds a Master’s Degree in American Literature, she has a very humanistic and poetic view of programming.", bio_ja: "iOS開発のリードエンジニアとして、ポーランドのソフトウェアハウスTutu Labに勤務しています。この２年間で独学でエンジニアになり、モバイルエンジニアリングの学位を取得、さらに、WWDCにてスピーチをしました。また、彼女のアプリは47カ国でNo.1を獲得しました。アメリカ文学の学位保持者のため、プログラミングに対して人文的かつ詩的な視点を持っています。")
