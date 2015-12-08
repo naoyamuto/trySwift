@@ -12,7 +12,8 @@
 # Maxim Cramer - wants to send a new bio
 
 # Speaker.create(name: "Maxim Cramer", twitter: "mennenia", announced: true, photo: "Maxim.jpg", bio: "Having shipped two featured apps at SwiftKey, Maxim is now lead mobile experience at PIE Mapping, effectively routing drivers amongst the maze of online orders and saving London cyclists from deadly truck collisions. Coming from both a design and development background, she loves observing people in their natural habitat, making technology that will serve them instead of the other way around. She also gets oddly excited about Swift’s closures. ", bio_ja: "２つの機能を持つSwiftKeyをリリースしており、複雑なオンライン注文を最適化し、トラック事故が酷いLondonのサイクリストを救うPIE Mapppingでモバイルエクスペリエンスのリードをしています。デザインと開発者のバックグラウンドを持っており、人の行動を観察し、技術が正しく人のために役立つようにすることに情熱を持っています。また、SwiftのClosureに以上に興奮しています。")
-# Speaker.create(name: "", twitter: "", announced: false, photo: ".jpg", bio: "", bio_ja: "")
+
+Speaker.create(name: "Laura Savino", twitter: "savinola", announced: false, photo: "laura.jpg", bio: "Laura is an iOS developer with a penchant for languages, travel, and education. She most recently worked to transform students' academic experience by building apps for learning at Khan Academy, and is now an independent coder, speaker, and trainer.", bio_ja: "")
 
 
 
