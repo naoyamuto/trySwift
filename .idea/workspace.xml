@@ -27,8 +27,8 @@
       <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73619634">
-              <caret line="19" column="453" selection-start-line="19" selection-start-column="453" selection-end-line="19" selection-end-column="453" />
+            <state vertical-scroll-proportion="0.49386504">
+              <caret line="65" column="94" selection-start-line="65" selection-start-column="94" selection-end-line="65" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -773,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73619634">
-          <caret line="19" column="453" selection-start-line="19" selection-start-column="453" selection-end-line="19" selection-end-column="453" />
+        <state vertical-scroll-proportion="0.49386504">
+          <caret line="65" column="94" selection-start-line="65" selection-start-column="94" selection-end-line="65" selection-end-column="94" />
           <folding />
         </state>
       </provider>
