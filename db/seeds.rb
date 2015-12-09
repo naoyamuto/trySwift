@@ -12,7 +12,7 @@
 # Maxim Cramer - wants to send a new bio
 
 Speaker.create(name: "Maxim Cramer", twitter: "mennenia", announced: true, photo: "Maxim.jpg", bio: "Coming from both a design and development background, Maxim loves observing people in their natural habitat, making technology that will serve them instead of the other way around.", bio_ja: "")
-Speaker.create(name: "Laura Savino", twitter: "savinola", announced: true, photo: "laura.jpg", bio: "Laura is an iOS developer with a penchant for languages, travel, and education. She most recently worked to transform students' academic experience by building apps for learning at Khan Academy, and is now an independent coder, speaker, and trainer.", bio_ja: "")
+Speaker.create(name: "Laura Savino", twitter: "savinola", announced: true, photo: "laura.jpg", bio: "Laura is an iOS developer with a penchant for languages, travel, and education. She most recently worked to transform students' academic experience by building apps for learning at Khan Academy, and is now an independent coder, speaker, and trainer.", bio_ja: "言語、旅行、教育に強い興味を持っているiOSエンジニアです。Khan Academyにて、アプリを作り、学ぶ過程で学生のアカデミックな経験を活かす取り組みをしています。フリーでコーダー、発表者、トレーナーをしています。")
 Speaker.create(name: "Rachel Bobbins", twitter: "bobbins", announced: true, photo: "rachel.jpg", bio: "Rachel is a lead engineer on the iOS team at Stitch Fix. Previously, she worked at Pivotal Labs. She cares deeply about building delightful experiences for both software users and software developers.", bio_ja: "")
 
 
