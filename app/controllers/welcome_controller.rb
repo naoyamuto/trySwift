@@ -12,4 +12,9 @@ class WelcomeController < ActionController::Base
     @speakers = Speaker.all
     @organizers = Organizer.all
   end
+
+  def schedule
+    @speakers = Speaker.all
+    @timeslots = Timeslot.all
+  end
 end

@@ -27,10 +27,12 @@ gem 'sdoc', group: :doc
 
 gem 'bourbon'
 gem 'neat'
+gem 'haml-rails'
 
 gem 'rails_12factor'
 
 gem 'gemoji'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
