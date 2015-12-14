@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151214212528) do
+ActiveRecord::Schema.define(version: 20151214220110) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,6 +35,14 @@ ActiveRecord::Schema.define(version: 20151214212528) do
     t.string   "bio_ja"
     t.integer  "speaker_day"
     t.integer  "timeslot"
+  end
+
+  create_table "timeslots", force: :cascade do |t|
+    t.integer  "number"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.string   "description"
+    t.boolean  "speaker"
   end
 
 end
