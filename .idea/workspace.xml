@@ -27,18 +27,38 @@
       <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="36.537037">
-              <caret line="73" column="139" selection-start-line="73" selection-start-column="128" selection-end-line="73" selection-end-column="139" />
+            <state vertical-scroll-proportion="88.25926">
+              <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20151214220110_create_timeslot.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20151214220110_create_timeslot.rb">
+      <file leaf-file-name="speaker.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -47,80 +67,98 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_en.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application_en.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1450132303000" expanded="true" signature="372:436" placeholder=" ... end" />
+                <marker date="1450133388000" expanded="true" signature="1234:4605" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="1465:1562" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="1568:1632" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="1756:1857" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="1863:1931" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2040:2136" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2142:2205" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2326:2426" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2432:2499" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2623:2724" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2730:2798" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="2922:3023" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3029:3097" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3227:3330" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3336:3406" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3527:3627" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3633:3700" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="3752:4090" placeholder="{...}" />
+                <marker date="1450133388000" expanded="true" signature="4139:4583" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="20151214220110_create_timeslot.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20151214220110_create_timeslot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4444447">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.888889">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.html.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/schedule.html.haml">
+      <file leaf-file-name="application.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <marker date="1450133387000" expanded="true" signature="1211:4571" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="1431:1528" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="1534:1598" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="1722:1823" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="1829:1897" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2006:2102" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2108:2171" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2292:2392" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2398:2465" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2589:2690" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2696:2764" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2888:2989" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="2995:3063" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="3193:3296" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="3302:3372" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="3493:3593" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="3599:3666" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="3718:4056" placeholder="{...}" />
+                <marker date="1450133387000" expanded="true" signature="4105:4549" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.0">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7457627">
+              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_en.html.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index_en.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index_en.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.63438255">
-              <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20151214212528_add_timeslot_to_speakers.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20151214212528_add_timeslot_to_speakers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20151115120701_create_organizers.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20151115120701_create_organizers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.111111">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.627451">
+              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="136" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -151,22 +189,23 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/modules/_navigation.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/partials/_header.scss" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application_en.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index_en.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/timeslot.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20151214220110_create_timeslot.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/schedule.html.haml" />
         <option value="$PROJECT_DIR$/app/views/welcome/schedule.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/speaker.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index_en.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.haml" />
       </list>
     </option>
   </component>
@@ -222,38 +261,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SwiftJP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SwiftJP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SwiftJP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SwiftJP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SwiftJP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -756,13 +763,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/diana.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -847,44 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="36.537037">
-          <caret line="73" column="139" selection-start-line="73" selection-start-column="128" selection-end-line="73" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <marker date="1450132303000" expanded="true" signature="372:436" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6185567">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -897,22 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20151214220110_create_timeslot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4444447">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.888889">
@@ -921,26 +871,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/schedule.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.0">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <marker date="1450133387000" expanded="true" signature="1211:4571" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="1431:1528" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="1534:1598" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="1722:1823" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="1829:1897" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2006:2102" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2108:2171" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2292:2392" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2398:2465" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2589:2690" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2696:2764" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2888:2989" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="2995:3063" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="3193:3296" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="3302:3372" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="3493:3593" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="3599:3666" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="3718:4056" placeholder="{...}" />
+            <marker date="1450133387000" expanded="true" signature="4105:4549" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/speaker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20151214220110_create_timeslot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_en.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1450133388000" expanded="true" signature="1234:4605" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="1465:1562" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="1568:1632" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="1756:1857" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="1863:1931" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2040:2136" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2142:2205" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2326:2426" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2432:2499" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2623:2724" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2730:2798" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="2922:3023" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3029:3097" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3227:3330" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3336:3406" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3527:3627" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3633:3700" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="3752:4090" placeholder="{...}" />
+            <marker date="1450133388000" expanded="true" signature="4139:4583" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="88.25926">
+          <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index_en.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.63438255">
-          <caret line="78" column="2" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+        <state vertical-scroll-proportion="-1.627451">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="136" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7457627">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           <folding />
         </state>
       </provider>

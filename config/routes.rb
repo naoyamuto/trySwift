@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   get '/en', to: 'welcome#index_en'
-  get '/schedule', to: 'welcome#schedule'
+ # get '/schedule', to: 'welcome#schedule'
 
 end

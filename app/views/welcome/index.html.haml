@@ -16,6 +16,7 @@
       %p.conference-description
         %em> try! Swift
         は世界中のSwiftデベロッパーが一堂に会し、知識や技術を互いに共有し高め合うことを目的としたカンファレンスです。2016.3.2〜2016.3.4の三日間、東京・渋谷にて新たな出会いと学びの機会を、素晴らしい食事とともにお待ちしています。
+
   %section#speakers.speakers
     .section-header
       %h1 講演者
@@ -32,14 +33,7 @@
                     @#{speaker.twitter}
                 %p.speaker-description
                   = speaker.bio_ja
-  /
-    <section class='schedule' id='schedule'>
-    <div class='section-header'>
-    <h1>Schedule</h1>
-    </div>
-    
-    <p>Schedule is still actively being created! Please check back for an exciting breakdown of <em>try! Swift</em> and <a href='https://twitter.com/tryswiftconf'>follow us on Twitter</a>.</p>
-    </section>
+
   %section#coc.coc
     .section-header
       %h1 行動規範
@@ -108,3 +102,24 @@
         またはTwitter
         %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"}> @tryswiftconf
         にてご連絡ください。
+
+  %section#schedule.schedule
+    .section-header
+      %h1 Schedule
+    %p
+      - days = ["Wednesday, March 2nd", "Thursday, March 3rd", "Firday, March 4th"]
+      - (1..3).each do |day|
+        .container
+          %h1 #{days[day - 1]}
+        - @timeslots.each do |timeslot|
+          .container
+            %p
+              #{timeslot.start_time.strftime("%k:%M")} - #{timeslot.end_time.strftime("%k:%M")}
+              - if timeslot.speaker
+                - speaker = @speakers.select { |x| x.timeslot == timeslot.number }.select { |x| x.speaker_day == day }.first
+                = succeed "  " do
+                  %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
+              - else
+                = succeed "  " do
+                  %strong #{timeslot.description}
+

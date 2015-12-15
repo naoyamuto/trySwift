@@ -6,15 +6,17 @@ class WelcomeController < ActionController::Base
   def index_en
     @speakers = Speaker.all
     @organizers = Organizer.all
+    @timeslots = Timeslot.all
   end
 
   def index
     @speakers = Speaker.all
     @organizers = Organizer.all
-  end
-
-  def schedule
-    @speakers = Speaker.all
     @timeslots = Timeslot.all
   end
+
+  # def schedule
+  #   @speakers = Speaker.all
+  #   @timeslots = Timeslot.all
+  # end
 end
