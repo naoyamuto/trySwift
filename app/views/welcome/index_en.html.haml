@@ -127,7 +127,7 @@
         - @timeslots.each do |timeslot|
           .container
             %p
-              #{timeslot.start_time.strftime("%l:%M%p")} - #{timeslot.end_time.strftime("%l:%M%p")}
+              #{timeslot.start_time.strftime("%I:%M%p")} - #{timeslot.end_time.strftime("%I:%M%p")}
               - if timeslot.speaker
                 - speaker = @speakers.select { |x| x.timeslot == timeslot.number }.select { |x| x.speaker_day == day }.first
                 = succeed "  " do

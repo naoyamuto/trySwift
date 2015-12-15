@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20151214220110) do
     t.datetime "start_time"
     t.datetime "end_time"
     t.string   "description"
+    t.string   "description_jp"
     t.boolean  "speaker"
   end
 

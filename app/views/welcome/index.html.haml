@@ -114,12 +114,12 @@
         - @timeslots.each do |timeslot|
           .container
             %p
-              #{timeslot.start_time.strftime("%k:%M")} - #{timeslot.end_time.strftime("%k:%M")}
+              #{timeslot.start_time.strftime("%H:%M")} - #{timeslot.end_time.strftime("%H:%M")}
               - if timeslot.speaker
-                - speaker = @speakers.select { |x| x.timeslot == timeslot.number }.select { |x| x.speaker_day == day }.first
-                = succeed "  " do
+                - speaker = @speakers.select { |s| s.timeslot == timeslot.number }.select { |s| s.speaker_day == day }.first
+                = succeed "    " do
                   %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
               - else
                 = succeed "  " do
-                  %strong #{timeslot.description}
+                  %strong #{timeslot.description_jp}
 

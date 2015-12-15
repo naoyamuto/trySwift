@@ -71,27 +71,27 @@ Organizer.create(name: "Hector Matos", twitter: "allonsykraken", photo: "hector.
 Organizer.create(name: "Kazunobu Tasaka", twitter: "tasanobu", photo: "tasanobu.png")
 
 
-Timeslot.create(number: 1, start_time: DateTime.new(2016,3,2,9,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,9,55,0,'+09:00'), description: "Wake-up Coffee & Breakfast", speaker: false)
+Timeslot.create(number: 1, start_time: DateTime.new(2016,3,2,9,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,9,55,0,'+09:00'), description: "Wake-up Coffee & Breakfast", description_jp: "", speaker: false)
 
-Timeslot.create(number: 2, start_time: DateTime.new(2016,3,2,10,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,10,25,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 3, start_time: DateTime.new(2016,3,2,10,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,10,55,0,'+09:00'), description: "Speaker", speaker: true)
+Timeslot.create(number: 2, start_time: DateTime.new(2016,3,2,10,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,10,25,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
+Timeslot.create(number: 3, start_time: DateTime.new(2016,3,2,10,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,10,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
 
-Timeslot.create(number: 4, start_time: DateTime.new(2016,3,2,11,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,11,25,0,'+09:00'), description: "Coffee / Tea Break", speaker: false)
+Timeslot.create(number: 4, start_time: DateTime.new(2016,3,2,11,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,11,25,0,'+09:00'), description: "Coffee / Tea Break", description_jp: "", speaker: false)
 
-Timeslot.create(number: 5, start_time: DateTime.new(2016,3,2,11,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,11,55,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 6, start_time: DateTime.new(2016,3,2,12,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,12,25,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 7, start_time: DateTime.new(2016,3,2,12,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,12,55,0,'+09:00'), description: "Speaker", speaker: true)
+Timeslot.create(number: 5, start_time: DateTime.new(2016,3,2,11,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,11,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
+Timeslot.create(number: 6, start_time: DateTime.new(2016,3,2,12,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,12,25,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
+Timeslot.create(number: 7, start_time: DateTime.new(2016,3,2,12,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,12,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
 
-Timeslot.create(number: 8, start_time: DateTime.new(2016,3,2,13,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,14,25,0,'+09:00'), description: "Lunch", speaker: false)
+Timeslot.create(number: 8, start_time: DateTime.new(2016,3,2,13,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,14,25,0,'+09:00'), description: "Lunch", description_jp: "", speaker: false)
 
-Timeslot.create(number: 9, start_time: DateTime.new(2016,3,2,14,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,14,55,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 10, start_time: DateTime.new(2016,3,2,15,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,15,25,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 11, start_time: DateTime.new(2016,3,2,15,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,15,55,0,'+09:00'), description: "Speaker", speaker: true)
+Timeslot.create(number: 9, start_time: DateTime.new(2016,3,2,14,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,14,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
+Timeslot.create(number: 10, start_time: DateTime.new(2016,3,2,15,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,15,25,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
+Timeslot.create(number: 11, start_time: DateTime.new(2016,3,2,15,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,15,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
 
-Timeslot.create(number: 12, start_time: DateTime.new(2016,3,2,16,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,16,25,0,'+09:00'), description: "Coffee / Tea Break", speaker: false)
+Timeslot.create(number: 12, start_time: DateTime.new(2016,3,2,16,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,16,25,0,'+09:00'), description: "Coffee / Tea Break", description_jp: "", speaker: false)
 
-Timeslot.create(number: 13, start_time: DateTime.new(2016,3,2,16,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,16,55,0,'+09:00'), description: "Speaker", speaker: true)
+Timeslot.create(number: 13, start_time: DateTime.new(2016,3,2,16,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,16,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
 Timeslot.create(number: 14, start_time: DateTime.new(2016,3,2,17,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,17,25,0,'+09:00'), description: "Speaker", speaker: true)
-Timeslot.create(number: 15, start_time: DateTime.new(2016,3,2,17,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,17,55,0,'+09:00'), description: "Speaker", speaker: true)
+Timeslot.create(number: 15, start_time: DateTime.new(2016,3,2,17,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,17,55,0,'+09:00'), description: "Speaker", description_jp: "", speaker: true)
 
-Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,18,25,0,'+09:00'), description: "Closing / Announcements", speaker: false)
+Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,18,25,0,'+09:00'), description: "Closing / Announcements", description_jp: "", speaker: false)
