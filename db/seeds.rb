@@ -94,3 +94,13 @@ Timeslot.create(number: 14, start_time: DateTime.new(2016,3,2,17,0,0,'+09:00'), 
 Timeslot.create(number: 15, start_time: DateTime.new(2016,3,2,17,30,0,'+09:00'), end_time: DateTime.new(2016,3,2,17,55,0,'+09:00'), description: "Speaker", description_jp: "セッション", speaker: true)
 
 Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,18,25,0,'+09:00'), description: "Closing / Announcements", description_jp: "クロージング", speaker: false)
+
+
+Sponsor.create(name: "フェンリル株式会社", website: "http://www.fenrir-inc.com/jp/", logo: "fenrir.png")
+Sponsor.create(name: "DENSO IT Laboratory, Inc.", website: "https://www.d-itlab.co.jp/", logo: "denso.png")
+Sponsor.create(name: "株式会社ディー・エヌ・エー", website: "http://dena.com/", logo: "dena.png")
+Sponsor.create(name: "freee株式会社", website: "https://www.freee.co.jp/1512-a", logo: "freee.png")
+Sponsor.create(name: "Nine Drafts Inc.", website: "http://9drafts.com/", logo: "ninedrafts")
+Sponsor.create(name: "Goodpatch, Inc.", website: "http://goodpatch.com/", logo: "goodpatch.png")
+Sponsor.create(name: "株式会社はてな", website: "http://www.hatena.ne.jp/", logo: "hatena.png")
+Sponsor.create(name: "GitHub", website: "https://github.com/", logo: "github.png")

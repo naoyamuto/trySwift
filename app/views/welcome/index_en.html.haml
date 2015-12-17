@@ -79,7 +79,7 @@
   %section#sponsors.sponsors
     .section-header
       %h1 Sponsors
-    %p.realm-logo= image_tag("sponsors/realm.svg", :alt => "realm.io")
+    %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
     .container
       %p
         Our top-level sponsor for
@@ -90,6 +90,9 @@
         Interested in becoming a sponsor? Email us at
         = succeed "." do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
+      - @sponsors.each do | sponsor |
+        .sponsor
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
 
     %section#organizers.speakers
       .section-header
@@ -104,6 +107,7 @@
                 .speaker-job-desc
                   %a{:href => "https://twitter.com/#{organizer.twitter}", :target => "_blank"}
                     @#{organizer.twitter}
+
 
     %section#contact.contact
       .section-header

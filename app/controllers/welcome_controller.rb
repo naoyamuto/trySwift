@@ -7,12 +7,14 @@ class WelcomeController < ActionController::Base
     @speakers = Speaker.all
     @organizers = Organizer.all
     @timeslots = Timeslot.all
+    @sponsors = Sponsor.all
   end
 
   def index
     @speakers = Speaker.all
     @organizers = Organizer.all
     @timeslots = Timeslot.all
+    @sponsors = Sponsor.all
   end
 
   # def schedule

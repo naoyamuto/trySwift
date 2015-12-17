@@ -66,7 +66,7 @@
   %section#sponsors.sponsors
     .section-header
       %h1 スポンサー
-    %p.realm-logo= image_tag("sponsors/realm.svg", :alt => "realm.io")
+    %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
     .container
       %p
         %a{:href => "https://realm.io/", :target => "_blank"}> Realm
@@ -77,6 +77,10 @@
         を応援していただける、スポンサーを募集しています。詳細についてメール
         %a{:href => "mailto:info@tryswiftconf.com"}> info@tryswiftconf.com
         にてお問い合わせください。
+      - @sponsors.each do | sponsor |
+        .sponsor
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+
 
   %section#organizers.speakers
     .section-header

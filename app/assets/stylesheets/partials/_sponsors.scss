@@ -1,0 +1,32 @@
+.sponsors {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-around);
+
+  .container {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2cm;
+  }
+}
+
+
+.sponsor {
+  @include align-self(flex-start);
+  @include flex (0 1 100%);
+
+  padding-top: 3%;
+  text-align: center;
+
+  @include media($nine-col) {
+    @include flex (0 1 33%);
+  }
+
+  img {
+    @include flex(0 1 50%);
+    @include justify-content(center);
+
+    max-width: 30%;
+    width: 30%;
+  }
+}
