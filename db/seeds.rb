@@ -100,7 +100,7 @@ Sponsor.create(name: "フェンリル株式会社", website: "http://www.fenrir-
 Sponsor.create(name: "DENSO IT Laboratory, Inc.", website: "https://www.d-itlab.co.jp/", logo: "denso.png")
 Sponsor.create(name: "株式会社ディー・エヌ・エー", website: "http://dena.com/", logo: "dena.png")
 Sponsor.create(name: "freee株式会社", website: "https://www.freee.co.jp/1512-a", logo: "freee.png")
-Sponsor.create(name: "Nine Drafts Inc.", website: "http://9drafts.com/", logo: "ninedrafts")
+Sponsor.create(name: "Nine Drafts Inc.", website: "http://9drafts.com/", logo: "ninedrafts.png")
 Sponsor.create(name: "Goodpatch, Inc.", website: "http://goodpatch.com/", logo: "goodpatch.png")
 Sponsor.create(name: "株式会社はてな", website: "http://www.hatena.ne.jp/", logo: "hatena.png")
 Sponsor.create(name: "GitHub", website: "https://github.com/", logo: "github.png")
