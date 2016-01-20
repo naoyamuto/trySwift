@@ -105,6 +105,7 @@ Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), 
 Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png")
 Sponsor.create(name: "フェンリル株式会社", website: "http://www.fenrir-inc.com/jp/", logo: "fenrir.png")
 Sponsor.create(name: "DENSO IT Laboratory, Inc.", website: "https://www.d-itlab.co.jp/", logo: "denso.png")
+Sponsor.create(name: "VOYAGE GROUP", website: "http://voyagegroup.com/", logo: "voyage.png")
 Sponsor.create(name: "株式会社ディー・エヌ・エー", website: "http://dena.com/", logo: "dena.png")
 Sponsor.create(name: "freee株式会社", website: "https://www.freee.co.jp/", logo: "freee.png")
 Sponsor.create(name: "Nine Drafts Inc.", website: "http://9drafts.com/", logo: "ninedrafts.png")
