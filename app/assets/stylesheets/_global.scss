@@ -25,7 +25,7 @@ html {
   clear: both;
   margin: auto;
   text-align: justify;
-  width: 65%;
+  width: 80%;
 }
 
 .upside-down {
@@ -40,9 +40,27 @@ img {
 
 .realm-logo {
   margin: auto;
-  width: 100%;
+  width: 75%;
 
   @include media($nine-col) {
-    width: 50%;
+    width: 40%;
+  }
+}
+
+.twitter-logo {
+  width: 65%;
+
+  @include media($nine-col) {
+    margin-right: 5%;
+    width: 30%;
+  }
+}
+
+.gold-logo {
+  margin: auto;
+  width: 35%;
+
+  @include media($nine-col) {
+    width: 25%;
   }
 }
