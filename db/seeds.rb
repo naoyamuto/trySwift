@@ -96,6 +96,9 @@ Timeslot.create(number: 15, start_time: DateTime.new(2016,3,2,17,30,0,'+09:00'),
 Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,18,25,0,'+09:00'), description: "Closing / Announcements", description_jp: "クロージング", speaker: false)
 
 
+Sponsor.create(name: "Realm", website: "https://realm.io/", logo: "realm.svg", level: "Diamond")
+Sponsor.create(name: "Twitter", website: "https://twitter.com/", logo: "twitter.png", level: "Diamond")
+
 Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Gold")
 Sponsor.create(name: "株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
 
