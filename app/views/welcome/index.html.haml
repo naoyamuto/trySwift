@@ -69,17 +69,18 @@
     .section-header
       %h1 スポンサー
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-    %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
+    / %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
     .container
       %div
         = succeed "" do
-          %a{:href => "https://realm.io/", :target => "_blank"}Realmと
-          %a{:href => "https://twitter.com/", :target => "_blank"}Twitter
+          %a{:href => "https://realm.io/", :target => "_blank"}Realm
+          / %a{:href => "https://realm.io/", :target => "_blank"}Realmと
+          / %a{:href => "https://twitter.com/", :target => "_blank"}Twitter
         は
         %strong try! Swift
         の「TOP」スポンサーです。
         %strong try! Swift
-        を応援していただける、スポンサーを募集しています。詳細についてメール
+        を応援していただけるスポンサーを募集しています。詳細についてメール
         = succeed "" do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
         にてお問い合わせください。
