@@ -84,7 +84,7 @@
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
     %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
     .container
-      %p
+      %div
         Our top-level sponsors for
         %em try! Swift
         are
@@ -94,12 +94,14 @@
         Interested in becoming a sponsor? Email us at
         = succeed "." do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
-      %p.gold-logo= link_to image_tag("sponsors/calogo.png", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-      %p.gold-logo= link_to image_tag("sponsors/calogo.png", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-      %p.gold-logo= link_to image_tag("sponsors/mercari.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
-      - @sponsors.each do | sponsor |
-        .sponsor
-          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      %div.sponsors
+        - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
+          .gold-logo
+            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      %div.sponsors
+        - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
+          .sponsor
+            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
 
     %section#organizers.speakers
       .section-header

@@ -69,20 +69,28 @@
     .section-header
       %h1 スポンサー
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+    %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
     .container
-      %p
-        %a{:href => "https://realm.io/", :target => "_blank"}> Realm
+      %div
+        = succeed "" do
+          %a{:href => "https://realm.io/", :target => "_blank"}Realmと
+          %a{:href => "https://twitter.com/", :target => "_blank"}Twitter
         は
-        %em> try! Swift
+        %strong try! Swift
         の「TOP」スポンサーです。
-        %em> try! Swift
+        %strong try! Swift
         を応援していただける、スポンサーを募集しています。詳細についてメール
-        %a{:href => "mailto:info@tryswiftconf.com"}> info@tryswiftconf.com
+        = succeed "" do
+          %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
         にてお問い合わせください。
-      - @sponsors.each do | sponsor |
-        .sponsor
-          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-
+      %div.sponsors
+        - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
+          .gold-logo
+            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      %div.sponsors
+        - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
+          .sponsor
+            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
 
   %section#organizers.speakers
     .section-header
