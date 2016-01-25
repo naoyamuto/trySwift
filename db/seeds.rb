@@ -96,12 +96,8 @@ Timeslot.create(number: 15, start_time: DateTime.new(2016,3,2,17,30,0,'+09:00'),
 Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), end_time: DateTime.new(2016,3,2,18,25,0,'+09:00'), description: "Closing / Announcements", description_jp: "クロージング", speaker: false)
 
 
-# Gold Sponsor!
-# Sponsor.create(name: "Mercari, Inc. 株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
-# https://www.mercari.com/
-# メルカリは"新たな価値を生みだす世界的なマーケットプレイスを創る"会社です。
-# Mercari is creating value in a global marketplace where anyone can buy & sell.
 Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Gold")
+Sponsor.create(name: "株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
 
 Sponsor.create(name: "フェンリル株式会社", website: "http://www.fenrir-inc.com/jp/", logo: "fenrir.png", level: "Silver")
 Sponsor.create(name: "DENSO IT Laboratory, Inc.", website: "https://www.d-itlab.co.jp/", logo: "denso.png", level: "Silver")
@@ -126,3 +122,5 @@ Sponsor.create(name: "株式会社Speee", website: "http://speee.jp/", logo: "sp
 Sponsor.create(name: "チャットワーク株式会社", website: "http://www.chatwork.com/ja/", logo: "chatwork.png", level: "Silver")
 Sponsor.create(name: "GMOペパボ株式会社", website: "http://pepabo.com/", logo: "pepabo.png", level: "Silver")
 Sponsor.create(name: "株式会社Wondershake", website: "https://locari.jp", logo: "wondershake.png", level: "Silver")
+Sponsor.create(name: "株式会社ユビレジ", website: "https://ubiregi.com/ja", logo: "ubiregi.png", level: "Silver")
+Sponsor.create(name: "トゥギャッター株式会社", website: "http://togetter.com/", logo: "togetter.png", level: "Silver")
