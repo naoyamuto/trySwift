@@ -101,6 +101,7 @@ Sponsor.create(name: "Twitter", website: "https://twitter.com/", logo: "twitter.
 
 Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Gold")
 Sponsor.create(name: "株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
+Sponsor.create(name: "ケイワイトレード 株式会社", website: "http://www.kytrade.co.jp/", logo: "kyt.jpg", level: "Gold")
 
 Sponsor.create(name: "フェンリル株式会社", website: "http://www.fenrir-inc.com/jp/", logo: "fenrir.png", level: "Silver")
 Sponsor.create(name: "DENSO IT Laboratory, Inc.", website: "https://www.d-itlab.co.jp/", logo: "denso.png", level: "Silver")
