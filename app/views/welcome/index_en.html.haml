@@ -82,7 +82,6 @@
     .section-header
       %h1 Sponsors
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-    / %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
     .container
       %div
         Our top-level sponsors for
@@ -90,17 +89,17 @@
         is
         = succeed "." do
           %a{:href => "https://realm.io/", :target => "_blank"} Realm
-        / are
-        / = succeed "." do
-        /   %a{:href => "https://realm.io/", :target => "_blank"} Realm and
-        /   %a{:href => "https://twitter.com/", :target => "_blank"} Twitter
         Interested in becoming a sponsor? Email us at
         = succeed "." do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
+      .sponsor-section-header
+        %h1 GOLD SPONSORS
       %div.sponsors
         - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
           .gold-logo
             = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      .sponsor-section-header
+        %h1 SILVER SPONSORS
       %div.sponsors
         - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
           .sponsor

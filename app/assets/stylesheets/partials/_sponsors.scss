@@ -30,3 +30,15 @@
     width: 30%;
   }
 }
+
+
+.sponsor-section-header {
+    @include align-items(center);
+    @include display(flex);
+    @include flex-wrap(wrap);
+
+    clear: both;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+  }

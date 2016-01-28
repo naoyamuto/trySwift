@@ -74,8 +74,6 @@
       %div
         = succeed "" do
           %a{:href => "https://realm.io/", :target => "_blank"}Realm
-          / %a{:href => "https://realm.io/", :target => "_blank"}Realmと
-          / %a{:href => "https://twitter.com/", :target => "_blank"}Twitter
         は
         %strong try! Swift
         の「TOP」スポンサーです。
@@ -84,10 +82,14 @@
         = succeed "" do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
         にてお問い合わせください。
+      .sponsor-section-header
+        %h1 GOLDスポンサー
       %div.sponsors
         - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
           .gold-logo
             = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      .sponsor-section-header
+        %h1 SILVERスポンサー
       %div.sponsors
         - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
           .sponsor
