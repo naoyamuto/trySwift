@@ -130,3 +130,5 @@ Sponsor.create(name: "GMOペパボ株式会社", website: "http://pepabo.com/", 
 Sponsor.create(name: "株式会社Wondershake", website: "https://locari.jp", logo: "wondershake.png", level: "Silver")
 Sponsor.create(name: "株式会社ユビレジ", website: "https://ubiregi.com/ja", logo: "ubiregi.png", level: "Silver")
 Sponsor.create(name: "トゥギャッター株式会社", website: "http://togetter.com/", logo: "togetter.png", level: "Silver")
+Sponsor.create(name: "ride", website: "https://ride.com/", logo: "ride.png", level: "Silver")
+
