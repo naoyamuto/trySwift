@@ -69,14 +69,19 @@
     .section-header
       %h1 スポンサー
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+    %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
     / %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
     .container
       %div
         = succeed "" do
           %a{:href => "https://realm.io/", :target => "_blank"}Realm
+        と
+        = succeed "" do
+          %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"}CyberAgent, Inc.
         は
         %strong try! Swift
         の「TOP」スポンサーです。
+      %div
         %strong try! Swift
         を応援していただけるスポンサーを募集しています。詳細についてメール
         = succeed "" do

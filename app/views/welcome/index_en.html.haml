@@ -82,13 +82,17 @@
     .section-header
       %h1 Sponsors
     %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+    %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
     .container
       %div
         Our top-level sponsors for
         %em try! Swift
-        is
-        = succeed "." do
+        are
+        = succeed "" do
           %a{:href => "https://realm.io/", :target => "_blank"} Realm
+        and
+        = succeed "." do
+          %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"} CyberAgent, Inc.
         Interested in becoming a sponsor? Email us at
         = succeed "." do
           %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
