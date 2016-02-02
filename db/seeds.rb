@@ -98,9 +98,9 @@ Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), 
 
 
 Sponsor.create(name: "Realm", website: "https://realm.io/", logo: "realm.svg", level: "Diamond")
+Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Diamond")
 Sponsor.create(name: "Twitter", website: "https://twitter.com/", logo: "twitter.png", level: "Diamond")
 
-Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Gold")
 Sponsor.create(name: "株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
 Sponsor.create(name: "ケイワイトレード 株式会社", website: "http://www.kytrade.co.jp/", logo: "kyt.jpg", level: "Gold")
 Sponsor.create(name: "LINE株式会社", website: "http://linecorp.com/ja/", logo: "line.png", level: "Gold")

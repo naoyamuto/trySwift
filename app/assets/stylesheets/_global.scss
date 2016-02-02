@@ -47,6 +47,15 @@ img {
   }
 }
 
+.cyberagent-logo {
+  margin: auto;
+  width: 65%;
+
+  @include media($nine-col) {
+    width: 35%;
+  }
+}
+
 .twitter-logo {
   width: 65%;
 
