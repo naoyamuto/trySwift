@@ -99,7 +99,6 @@ Timeslot.create(number: 16, start_time: DateTime.new(2016,3,2,18,0,0,'+09:00'), 
 
 Sponsor.create(name: "Realm", website: "https://realm.io/", logo: "realm.svg", level: "Diamond")
 Sponsor.create(name: "Cyber Agent", website: "https://www.cyberagent.co.jp/", logo: "calogo.png", level: "Diamond")
-Sponsor.create(name: "Twitter", website: "https://twitter.com/", logo: "twitter.png", level: "Diamond")
 
 Sponsor.create(name: "株式会社メルカリ", website: "https://www.mercari.com/", logo: "mercari.png", level: "Gold")
 Sponsor.create(name: "ケイワイトレード 株式会社", website: "http://www.kytrade.co.jp/", logo: "kyt.jpg", level: "Gold")
@@ -131,4 +130,7 @@ Sponsor.create(name: "株式会社Wondershake", website: "https://locari.jp", lo
 Sponsor.create(name: "株式会社ユビレジ", website: "https://ubiregi.com/ja", logo: "ubiregi.png", level: "Silver")
 Sponsor.create(name: "トゥギャッター株式会社", website: "http://togetter.com/", logo: "togetter.png", level: "Silver")
 Sponsor.create(name: "ride", website: "https://ride.com/", logo: "ride.png", level: "Silver")
-
+Sponsor.create(name: "日本経済新聞社", website: "http://www.nikkei.com/", logo: "nikkei.png", level: "Silver")
+Sponsor.create(name: "株式会社PR TIMES", website: "http://prtimes.co.jp/", logo: "prtimes.png", level: "Silver")
+Sponsor.create(name: "株式会社オハコ", website: "http://ohako-inc.jp/", logo: "ohako.png", level: "Silver")
+Sponsor.create(name: "株式会社ookami", website: "http://www.playerapp.tokyo", logo: "ookami.png", level: "Silver")
