@@ -134,3 +134,4 @@ Sponsor.create(name: "日本経済新聞社", website: "http://www.nikkei.com/",
 Sponsor.create(name: "株式会社PR TIMES", website: "http://prtimes.co.jp/", logo: "prtimes.png", level: "Silver")
 Sponsor.create(name: "株式会社オハコ", website: "http://ohako-inc.jp/", logo: "ohako.png", level: "Silver")
 Sponsor.create(name: "株式会社ookami", website: "http://www.playerapp.tokyo", logo: "ookami.png", level: "Silver")
+Sponsor.create(name: "Perfect", website: "http://perfect.org/", logo: "perfect.png", level: "Silver")
