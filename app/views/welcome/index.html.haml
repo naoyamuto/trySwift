@@ -1,159 +1,157 @@
-%body
-  = render template: "layouts/application"
-  - content_for :title, "try! Swift"
-  %header.header
-    .conference-callout
-      %h1.conference-title try! Swift
-      %p.conference-description
-        %br/
-        Swift ?? #{Emoji.find_by_unicode("\u{1f4a5}").raw}
-        %br/
-        %strong 2016.3.2〜2016.3.4
-        %br/
-        %strong 東京・渋谷
-        %br/
-        %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} Twitterで@tryswiftconfをフォローしてください！
-        %br/
-        %a{:href => "https://twitter.com/search?q=%23tryswiftconf", :target => "_blank"} #tryswiftconf
-      %p.conference-description
-        %em> try! Swift
-        は世界中のSwiftデベロッパーが一堂に会し、知識や技術を互いに共有し高め合うことを目的としたカンファレンスです。2016.3.2〜2016.3.4の三日間、東京・渋谷にて新たな出会いと学びの機会を、素晴らしい食事とともにお待ちしています。
+- content_for :title, "try! Swift"
+%header.header
+  .conference-callout
+    %h1.conference-title try! Swift
+    %p.conference-description
+      %br/
+      Swift ?? #{Emoji.find_by_unicode("\u{1f4a5}").raw}
+      %br/
+      %strong 2016.3.2〜2016.3.4
+      %br/
+      %strong 東京・渋谷
+      %br/
+      %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} Twitterで@tryswiftconfをフォローしてください！
+      %br/
+      %a{:href => "https://twitter.com/search?q=%23tryswiftconf", :target => "_blank"} #tryswiftconf
+    %p.conference-description
+      %em> try! Swift
+      は世界中のSwiftデベロッパーが一堂に会し、知識や技術を互いに共有し高め合うことを目的としたカンファレンスです。2016.3.2〜2016.3.4の三日間、東京・渋谷にて新たな出会いと学びの機会を、素晴らしい食事とともにお待ちしています。
 
-  %section#speakers.speakers
-    .section-header
-      %h1 講演者
-    .container
-      - @speakers.each do |speaker|
-        - if speaker.announced == true
-          .speaker
-            %figure
-              = image_tag(speaker.photo, :alt => speaker.name)
-              %figcaption
-                %h2.speaker-name= speaker.name
-                .speaker-job-desc
-                  %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}
-                    @#{speaker.twitter}
-                %p.speaker-description
-                  = speaker.bio_ja
-
-  %section#coc.coc
-    .section-header
-      %h1 行動規範
-    .container
-      %p
-        %em> try! Swift
-        は、さまざまな地域やコミュニティから集うすべての人びとに対して開かれたカンファレンスを目指しています。特に、性別や人種など、多様な背景を持つ人びとが互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは、発表者や参加者、スポンサーの皆様に行動規範を守っていただくようにお願いしています。行動規範の全文は
-        %a{:href => "https://github.com/NatashaTheRobot/trySwiftCodeOfConduct", :target => "_blank"}> GitHubにて公開
-        しています。
-  %section#tickets.buy-ticket
-    .section-header
-      %h1 チケットの購入
-    .container
-      %div{:style => "width:100%; text-align:left;"}
-        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "325", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "//eventbrite.com/tickets-external?eid=19564952299&ref=etckt", :vspace => "0", :width => "100%"}
-        %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
-          %a.powered-by-eb{:href => "http://www.eventbrite.com/r/etckt", :style => "color: #dddddd; text-decoration: none;", :target => "_blank"} Powered by Eventbrite
-
-  %section#location.date-location
-    .section-header
-      %h1 会場
-    .container
-      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px;", :width => "100%"}
-      %p
-        %em> try! Swift
-        は東京の
-        %strong> 渋谷マークシティ
-        にて開催されます。
-        %br/
-        〒150-0043 渋谷区道玄坂1丁目12番1号渋谷マークシティウエスト 13階 
-        = link_to "株式会社サイバーエージェント", "https://www.cyberagent.co.jp/", target: '_blank'
-        セミナールームA/B
-        %br/
-        %br/
-        会場へのアクセスは
-        %a{:href => "http://frontrend.github.io/blog/shibuya-markcity/", :target => '_blank'}こちら
-        %br/
-        %br/
-        %strong>注意事項: 
-        %br/
-        \- 貴重品や所持品は必ずご自身の責任で管理をお願い致します。 
-
-  %section#sponsors.sponsors
-    .section-header
-      %h1 スポンサー
-    %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-    %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
-    / %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
-    .container
-      %div
-        = succeed "" do
-          %a{:href => "https://realm.io/", :target => "_blank"}Realm
-        と
-        = succeed "" do
-          %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"}CyberAgent, Inc.
-        は
-        %strong try! Swift
-        の「TOP」スポンサーです。
-      %div
-        %strong try! Swift
-        を応援していただけるスポンサーを募集しています。詳細についてメール
-        = succeed "" do
-          %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
-        にてお問い合わせください。
-      .sponsor-section-header
-        %h1 GOLDスポンサー
-      %div.sponsors
-        - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
-          .gold-logo
-            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-      .sponsor-section-header
-        %h1 SILVERスポンサー
-      %div.sponsors
-        - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
-          .sponsor
-            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-
-  %section#organizers.speakers
-    .section-header
-      %h1 主催者
-    .container
-      - @organizers.each do |organizer|
+%section#speakers.speakers
+  .section-header
+    %h1 講演者
+  .container
+    - @speakers.each do |speaker|
+      - if speaker.announced == true
         .speaker
           %figure
-            = image_tag("organizers/#{organizer.photo}", :alt => organizer.name)
+            = image_tag(speaker.photo, :alt => speaker.name)
             %figcaption
-              %h2.speaker-name= organizer.name
+              %h2.speaker-name= speaker.name
               .speaker-job-desc
-                %a{:href => "https://twitter.com/#{organizer.twitter}", :target => "_blank"}
-                  @#{organizer.twitter}
+                %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}
+                  @#{speaker.twitter}
+              %p.speaker-description
+                = speaker.bio_ja
 
-  %section#contact.contact
-    .section-header
-      %h1 お問い合わせ
-    .container
-      %p
-        try! Swiftについてのお問い合わせはメール
-        %a{:href => "mailto:info@tryswiftconf.com"}> info@tryswiftconf.com
-        またはTwitter
-        %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"}> @tryswiftconf
-        にてご連絡ください。
-
-  %section#schedule.schedule
-    .section-header
-      %h1 スケジュール
+%section#coc.coc
+  .section-header
+    %h1 行動規範
+  .container
     %p
-      - days = ["3月2日（水）", "3月3日（木）", "3月4日（金）"]
-      - (1..3).each do |day|
-        .container
-          %h1 #{days[day - 1]}
-        - @timeslots.each do |timeslot|
-          .container
-            %p
-              #{timeslot.start_time.strftime("%H:%M")} - #{timeslot.end_time.strftime("%H:%M")}
-              - if timeslot.speaker
-                - speaker = @speakers.select { |s| s.timeslot == timeslot.number }.select { |s| s.speaker_day == day }.first
-                = succeed "    " do
-                  %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
-              - else
-                = succeed "  " do
-                  %strong #{timeslot.description_jp}
+      %em> try! Swift
+      は、さまざまな地域やコミュニティから集うすべての人びとに対して開かれたカンファレンスを目指しています。特に、性別や人種など、多様な背景を持つ人びとが互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは、発表者や参加者、スポンサーの皆様に行動規範を守っていただくようにお願いしています。行動規範の全文は
+      %a{:href => "https://github.com/NatashaTheRobot/trySwiftCodeOfConduct", :target => "_blank"}> GitHubにて公開
+      しています。
+      
+%section#tickets.buy-ticket
+  .section-header
+    %h1 チケットの購入
+  .container
+    %div{:style => "width:100%; text-align:left;"}
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "325", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "//eventbrite.com/tickets-external?eid=19564952299&ref=etckt", :vspace => "0", :width => "100%"}
+      %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
+        %a.powered-by-eb{:href => "http://www.eventbrite.com/r/etckt", :style => "color: #dddddd; text-decoration: none;", :target => "_blank"} Powered by Eventbrite
+
+%section#location.date-location
+  .section-header
+    %h1 会場
+  .container
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px;", :width => "100%"}
+    %p
+      %em> try! Swift
+      は東京の
+      %strong> 渋谷マークシティ
+      にて開催されます。
+      %br/
+      〒150-0043 渋谷区道玄坂1丁目12番1号渋谷マークシティウエスト 13階 
+      = link_to "株式会社サイバーエージェント", "https://www.cyberagent.co.jp/", target: '_blank'
+      セミナールームA/B
+      %br/
+      %br/
+      会場へのアクセスは
+      %a{:href => "http://frontrend.github.io/blog/shibuya-markcity/", :target => '_blank'}こちら
+      %br/
+      %br/
+      %strong>注意事項: 
+      %br/
+      \- 貴重品や所持品は必ずご自身の責任で管理をお願い致します。 
+
+%section#sponsors.sponsors
+  .section-header
+    %h1 スポンサー
+  %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+  %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
+  / %p.twitter-logo= link_to image_tag("sponsors/twitter.png", :alt => "twitter.com"), "https://twitter.com/", target: '_blank'
+  .container
+    %div
+      = succeed "" do
+        %a{:href => "https://realm.io/", :target => "_blank"}Realm
+      と
+      = succeed "" do
+        %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"}CyberAgent, Inc.
+      は
+      %strong try! Swift
+      の「TOP」スポンサーです。
+    %div
+      %strong try! Swift
+      を応援していただけるスポンサーを募集しています。詳細についてメール
+      = succeed "" do
+        %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
+      にてお問い合わせください。
+    .sponsor-section-header
+      %h1 GOLDスポンサー
+    %div.sponsors
+      - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
+        .gold-logo
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+    .sponsor-section-header
+      %h1 SILVERスポンサー
+    %div.sponsors
+      - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
+        .sponsor
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+
+%section#organizers.speakers
+  .section-header
+    %h1 主催者
+  .container
+    - @organizers.each do |organizer|
+      .speaker
+        %figure
+          = image_tag("organizers/#{organizer.photo}", :alt => organizer.name)
+          %figcaption
+            %h2.speaker-name= organizer.name
+            .speaker-job-desc
+              %a{:href => "https://twitter.com/#{organizer.twitter}", :target => "_blank"}
+                @#{organizer.twitter}
+
+%section#contact.contact
+  .section-header
+    %h1 お問い合わせ
+  .container
+    %p
+      try! Swiftについてのお問い合わせはメール
+      %a{:href => "mailto:info@tryswiftconf.com"}> info@tryswiftconf.com
+      またはTwitter
+      %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"}> @tryswiftconf
+      にてご連絡ください。
+
+%section#schedule.schedule
+  .section-header
+    %h1 スケジュール
+  - days = ["3月2日（水）", "3月3日（木）", "3月4日（金）"]
+  - (1..3).each do |day|
+    .container
+      %h1 #{days[day - 1]}
+    - @timeslots.each do |timeslot|
+      .container
+        %p
+          #{timeslot.start_time.strftime("%H:%M")} - #{timeslot.end_time.strftime("%H:%M")}
+          - if timeslot.speaker
+            - speaker = @speakers.select { |s| s.timeslot == timeslot.number }.select { |s| s.speaker_day == day }.first
+            = succeed "    " do
+              %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
+          - else
+            = succeed "  " do
+              %strong #{timeslot.description_jp}

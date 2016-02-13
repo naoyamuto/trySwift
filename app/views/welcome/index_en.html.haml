@@ -1,178 +1,166 @@
-%body
-  = render template: "layouts/application_en"
-  - content_for :title, "try! Swift"
-  %header.header
-    .conference-callout
-      %h1.conference-title try! Swift
-      %p.conference-description
-        %br/
-        Swift ?? #{Emoji.find_by_unicode("\u{1f4a5}").raw}
-        %br/
-        %strong March 2nd - 4th, 2016
-        %br/
-        %strong Tokyo, Japan
-        %br/
-        %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} Follow us on Twitter @tryswiftconf!
-        %br/
-        %a{:href => "https://twitter.com/search?q=%23tryswiftconf", :target => "_blank"} #tryswiftconf
-      %p.conference-description
-        %em try! Swift
-        is an immersive community gathering about
-        = succeed "." do
-          %strong iOS, watchOS, and tvOS development in Swift
+- content_for :title, "try! Swift"
+%header.header
+  .conference-callout
+    %h1.conference-title try! Swift
+    %p.conference-description
+      %br/
+      Swift ?? #{Emoji.find_by_unicode("\u{1f4a5}").raw}
+      %br/
+      %strong March 2nd - 4th, 2016
+      %br/
+      %strong Tokyo, Japan
+      %br/
+      %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} Follow us on Twitter @tryswiftconf!
+      %br/
+      %a{:href => "https://twitter.com/search?q=%23tryswiftconf", :target => "_blank"} #tryswiftconf
+    %p.conference-description
+      %em try! Swift
+      is an immersive community gathering about
+      = succeed "." do
+        %strong iOS, watchOS, and tvOS development in Swift
 
-  %section#speakers.speakers
-    .section-header
-      %h1 30+ Expert Speakers
-    .container
-      - @speakers.each do |speaker|
-        - if speaker.announced == true
-          .speaker
-            %figure
-              = image_tag(speaker.photo, :alt => speaker.name)
-              %figcaption
-                %h2.speaker-name= speaker.name
-                .speaker-job-desc
-                  %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}
-                    @#{speaker.twitter}
-                %p.speaker-description
-                  = speaker.bio
-  /
-    <section class='schedule' id='schedule'>
-    <div class='section-header'>
-    <h1>Schedule</h1>
-    </div>
-    
-    <p>Schedule is still actively being created! Please check back for an exciting breakdown of <em>try! Swift</em> and <a href='https://twitter.com/tryswiftconf'>follow us on Twitter</a>.</p>
-    </section>
-
-  %section#coc.coc
-    .section-header
-      %h1 Code of Conduct
-    .container
-      %p
-        We are committed to providing a safe space for all of our attendees, speakers, and volunteers. Our Code of Conduct can be read in full
-        = succeed "." do
-          %a{:href => "https://github.com/NatashaTheRobot/trySwiftCodeOfConduct", :target => "_blank"} on Github here
-        We encourage everyone to read it in full so we can all have a great time at
-        = succeed "." do
-          %em try! Swift
-
-  %section#tickets.buy-ticket
-    .section-header
-      %h1 Get Tickets
-    .container
-      %div{:style => "width:100%; text-align:left;"}
-        %iframe{:allowtransparency => "true", :frameborder => "0", :height => "325", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "//eventbrite.com/tickets-external?eid=19564952299&ref=etckt", :vspace => "0", :width => "100%"}
-        %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
-          %a.powered-by-eb{:href => "http://www.eventbrite.com/r/etckt", :style => "color: #dddddd; text-decoration: none;", :target => "_blank"} Powered by Eventbrite
-
-  %section#location.date-location
-    .section-header
-      %h1 Location
-    .container
-      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px;", :width => "100%"}
-      %p
-        %em try! Swift
-        will take place at
-        %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"} CyberAgent, Inc. 
-        in
-        %strong Shibuya Mark City
-        in Tokyo, Japan.
-        %br/
-        %br/
-        = link_to "CyberAgent, Inc.", "https://www.cyberagent.co.jp/", target: '_blank'
-        %br/
-        Seminar Rooms A and B
-        %br/
-        Shibuya Mark City West, 13F
-        %br/
-        Dogenzaka 1-12-1
-        %br/
-        Shibuya, Tokyo, 150-0043
-        %br/
-        %br/
-        We also have
-        %a{:href => "https://gist.github.com/cjwirth/f462cce018171ddc0c79", :target => '_blank'}Access Directions
-        that go straight to the seminar room.
-        %br/
-        %br/
-        %strong>Warning:
-        We won't have a bag check, so you are responsible for your own valuables and property.
-
-  %section#sponsors.sponsors
-    .section-header
-      %h1 Sponsors
-    %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
-    %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
-    .container
-      %div
-        Our top-level sponsors for
-        %em try! Swift
-        are
-        = succeed "" do
-          %a{:href => "https://realm.io/", :target => "_blank"} Realm
-        and
-        = succeed "." do
-          %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"} CyberAgent, Inc.
-        Interested in becoming a sponsor? Email us at
-        = succeed "." do
-          %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
-      .sponsor-section-header
-        %h1 GOLD SPONSORS
-      %div.sponsors
-        - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
-          .gold-logo
-            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-      .sponsor-section-header
-        %h1 SILVER SPONSORS
-      %div.sponsors
-        - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
-          .sponsor
-            = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-
-    %section#organizers.speakers
-      .section-header
-        %h1 Organizers
-      .container
-        - @organizers.each do |organizer|
-          .speaker
-            %figure
-              = image_tag("organizers/#{organizer.photo}", :alt => organizer.name)
-              %figcaption
-                %h2.speaker-name= organizer.name
-                .speaker-job-desc
-                  %a{:href => "https://twitter.com/#{organizer.twitter}", :target => "_blank"}
-                    @#{organizer.twitter}
-
-
-  %section#contact.contact
-    .section-header
-      %h1 Contact
-    .container
-      %p
-        Want to know more? Email us at
-        %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
-        or tweet us at
-        = succeed "." do
-          %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} @tryswiftconf
-
-  %section#schedule.schedule
-    .section-header
-      %h1 Schedule
+%section#speakers.speakers
+  .section-header
+    %h1 30+ Expert Speakers
+  .container
+    - @speakers.each do |speaker|
+      - if speaker.announced == true
+        .speaker
+          %figure
+            = image_tag(speaker.photo, :alt => speaker.name)
+            %figcaption
+              %h2.speaker-name= speaker.name
+              .speaker-job-desc
+                %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}
+                  @#{speaker.twitter}
+              %p.speaker-description
+                = speaker.bio
+                
+%section#coc.coc
+  .section-header
+    %h1 Code of Conduct
+  .container
     %p
-      - days = ["Wednesday, March 2nd", "Thursday, March 3rd", "Friday, March 4th"]
-      - (1..3).each do |day|
-        .container
-          %h1 #{days[day - 1]}
-        - @timeslots.each do |timeslot|
-          .container
-            %p
-              #{timeslot.start_time.strftime("%I:%M%p")} - #{timeslot.end_time.strftime("%I:%M%p")}
-              - if timeslot.speaker
-                - speaker = @speakers.select { |x| x.timeslot == timeslot.number }.select { |x| x.speaker_day == day }.first
-                = succeed "  " do
-                  %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
-              - else
-                = succeed "  " do
-                  %strong #{timeslot.description}
+      We are committed to providing a safe space for all of our attendees, speakers, and volunteers. Our Code of Conduct can be read in full
+      = succeed "." do
+        %a{:href => "https://github.com/NatashaTheRobot/trySwiftCodeOfConduct", :target => "_blank"} on Github here
+      We encourage everyone to read it in full so we can all have a great time at
+      = succeed "." do
+        %em try! Swift
+
+%section#tickets.buy-ticket
+  .section-header
+    %h1 Get Tickets
+  .container
+    %div{:style => "width:100%; text-align:left;"}
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "325", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "//eventbrite.com/tickets-external?eid=19564952299&ref=etckt", :vspace => "0", :width => "100%"}
+      %div{:style => "font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"}
+        %a.powered-by-eb{:href => "http://www.eventbrite.com/r/etckt", :style => "color: #dddddd; text-decoration: none;", :target => "_blank"} Powered by Eventbrite
+
+%section#location.date-location
+  .section-header
+    %h1 Location
+  .container
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px;", :width => "100%"}
+    %p
+      %em try! Swift
+      will take place at
+      %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"} CyberAgent, Inc. 
+      in
+      %strong Shibuya Mark City
+      in Tokyo, Japan.
+      %br/
+      %br/
+      = link_to "CyberAgent, Inc.", "https://www.cyberagent.co.jp/", target: '_blank'
+      %br/
+      Seminar Rooms A and B
+      %br/
+      Shibuya Mark City West, 13F
+      %br/
+      Dogenzaka 1-12-1
+      %br/
+      Shibuya, Tokyo, 150-0043
+      %br/
+      %br/
+      We also have
+      %a{:href => "https://gist.github.com/cjwirth/f462cce018171ddc0c79", :target => '_blank'}Access Directions
+      that go straight to the seminar room.
+      %br/
+      %br/
+      %strong>Warning:
+      We won't have a bag check, so you are responsible for your own valuables and property.
+
+%section#sponsors.sponsors
+  .section-header
+    %h1 Sponsors
+  %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+  %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
+  .container
+    %div
+      Our top-level sponsors for
+      %em try! Swift
+      are
+      = succeed "" do
+        %a{:href => "https://realm.io/", :target => "_blank"} Realm
+      and
+      = succeed "." do
+        %a{:href => "https://www.cyberagent.co.jp/", :target => "_blank"} CyberAgent, Inc.
+      Interested in becoming a sponsor? Email us at
+      = succeed "." do
+        %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
+    .sponsor-section-header
+      %h1 GOLD SPONSORS
+    %div.sponsors
+      - @sponsors.select { |sponsor| sponsor.level == 'Gold' }.each do | sponsor |
+        .gold-logo
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+    .sponsor-section-header
+      %h1 SILVER SPONSORS
+    %div.sponsors
+      - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
+        .sponsor
+          = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+
+%section#organizers.speakers
+  .section-header
+    %h1 Organizers
+  .container
+    - @organizers.each do |organizer|
+      .speaker
+        %figure
+          = image_tag("organizers/#{organizer.photo}", :alt => organizer.name)
+          %figcaption
+            %h2.speaker-name= organizer.name
+            .speaker-job-desc
+              %a{:href => "https://twitter.com/#{organizer.twitter}", :target => "_blank"}
+                @#{organizer.twitter}
+
+%section#contact.contact
+  .section-header
+    %h1 Contact
+  .container
+    %p
+      Want to know more? Email us at
+      %a{:href => "mailto:info@tryswiftconf.com"} info@tryswiftconf.com
+      or tweet us at
+      = succeed "." do
+        %a{:href => "https://twitter.com/tryswiftconf", :target => "_blank"} @tryswiftconf
+
+%section#schedule.schedule
+  .section-header
+    %h1 Schedule
+  - days = ["Wednesday, March 2nd", "Thursday, March 3rd", "Friday, March 4th"]
+  - (1..3).each do |day|
+    .container
+      %h1 #{days[day - 1]}
+    - @timeslots.each do |timeslot|
+      .container
+        %p
+          #{timeslot.start_time.strftime("%I:%M%p")} - #{timeslot.end_time.strftime("%I:%M%p")}
+          - if timeslot.speaker
+            - speaker = @speakers.select { |x| x.timeslot == timeslot.number }.select { |x| x.speaker_day == day }.first
+            = succeed "  " do
+              %a{:href => "https://twitter.com/#{speaker.twitter}", :target => "_blank"}> #{speaker.name}
+          - else
+            = succeed "  " do
+              %strong #{timeslot.description}
