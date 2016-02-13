@@ -61,7 +61,8 @@
   .section-header
     %h1 Location
   .container
-    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px;", :width => "100%"}
+    .overlay{:onClick => "style.pointerEvents='none'", :style => "background:transparent; position:relative; width: 100%; height: 450px; top: 450px; margin-top: -450px;"}
+    %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3241.7682432622405!2d139.6963881!3d35.6580812!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5633c91f13%3A0xaa0cf9a99cd6ccf4!2sSHIBUYA+MARK+CITY!5e0!3m2!1sen!2sjp!4v1447591769769", :style => "border:0; margin-top: 50px; pointer-events:none;", :width => "100%"}
     %p
       %em try! Swift
       will take place at
