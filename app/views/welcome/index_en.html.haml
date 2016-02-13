@@ -94,7 +94,7 @@
 %section#sponsors.sponsors
   .section-header
     %h1 Sponsors
-  %p.realm-logo= link_to image_tag("sponsors/realm.svg", :alt => "realm.io"), "https://realm.io/", target: '_blank'
+  %p.realm-logo= link_to image_tag("sponsors/realm.png", :alt => "realm.io"), "https://realm.io/", target: '_blank'
   %p.cyberagent-logo= link_to image_tag("sponsors/calogo.png", :alt => "www.cyberagent.co.jp"), "https://www.cyberagent.co.jp/", target: '_blank'
   .container
     %div
@@ -121,6 +121,9 @@
       - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
         .sponsor
           = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
+      - (@sponsors.size % 3).times do
+        .sponsor
+          = image_tag("sponsors/dummy.png")
 
 %section#organizers.speakers
   .section-header

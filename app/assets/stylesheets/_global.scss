@@ -40,27 +40,18 @@ img {
 
 .realm-logo {
   margin: auto;
-  width: 75%;
+  width: 30%;
 
   @include media($nine-col) {
-    width: 40%;
+    width: 30%;
   }
 }
 
 .cyberagent-logo {
   margin: auto;
-  width: 65%;
+  width: 30%;
 
   @include media($nine-col) {
-    width: 35%;
-  }
-}
-
-.twitter-logo {
-  width: 65%;
-
-  @include media($nine-col) {
-    margin-right: 5%;
     width: 30%;
   }
 }
