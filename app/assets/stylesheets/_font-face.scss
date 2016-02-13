@@ -1,8 +1,8 @@
 // Font-face includes.
 
-@include font-face(SanFrancisco, 'sf-ui-text-regular-webfont', 400, $asset-pipeline: true);
-@include font-face(SanFrancisco, 'sf-ui-text-regularitalic-webfont', 400, italic, $asset-pipeline: true);
-@include font-face(SanFrancisco, 'sf-ui-text-regular-bold-webfont', 700, $asset-pipeline: true);
+@include font-face(SanFrancisco, 'sf-ui-text-regular-webfont', 400, $file-formats: eot oft svg, $asset-pipeline: true);
+@include font-face(SanFrancisco, 'sf-ui-text-regularitalic-webfont', 400, italic, $file-formats: eot oft svg ttf woff, $asset-pipeline: true);
+@include font-face(SanFrancisco, 'sf-ui-text-regular-bold-webfont', 700, $file-formats: eot oft svg, $asset-pipeline: true);
 
-@include font-face(NeueHaasUnica, 'NeueHaasUnicaW1G-Black', 900, $file-formats: eot oft svg ttf woff, $asset-pipeline: true);
-@include font-face(NeueHaasUnica, 'NeueHaasUnicaW1G-Regular', 400, $asset-pipeline: true);
+@include font-face(NeueHaasUnica, 'NeueHaasUnicaW1G-Black', 900, $file-formats: eot oft svg ttf, $asset-pipeline: true);
+@include font-face(NeueHaasUnica, 'NeueHaasUnicaW1G-Regular', 400, $file-formats: eot oft svg ttf, $asset-pipeline: true);
