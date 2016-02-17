@@ -136,4 +136,5 @@ Sponsor.create(name: "株式会社ookami", website: "http://www.playerapp.tokyo"
 Sponsor.create(name: "Perfect", website: "http://perfect.org/", logo: "perfect.png", level: "Silver")
 Sponsor.create(name: "からくり株式会社", website: "http://caraquri.com/", logo: "caraquri.png", level: "Silver")
 Sponsor.create(name: "Instagram", website: "https://www.instagram.com/", logo: "instagram.png", level: "Silver")
+Sponsor.create(name: "技術評論社", website: "http://gihyo.jp/", logo: "gihyojp.png", level: "Silver")
 
