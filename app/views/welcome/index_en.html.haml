@@ -123,7 +123,7 @@
       - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.each do | sponsor |
         .sponsor
           = link_to image_tag("sponsors/#{sponsor.logo}", :alt => sponsor.name), sponsor.website, target: '_blank'
-      - (@sponsors.size % 3).times do
+      - ((3 - @sponsors.select { |sponsor| sponsor.level == 'Silver' }.length) % 3).times do
         .sponsor
           = image_tag("sponsors/dummy.png")
 
