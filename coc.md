@@ -12,6 +12,8 @@ Sexual language and imagery is not appropriate during talks. Refrain from using 
 
 Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 
+Critical examination of beliefs, including critical commentary on another person’s views, does not, by itself, constitute hostile conduct or harassment. One of the underlying rationales of this Code of Conduct is to promote the free exchange of ideas, not to inhibit it.
+
 ## Action
 
 If you are being harassed, notice someone else that is being harassed, or have any other concerns, please flag down a member of the _try! Swift_ staff. Alternatively, if you feel you need to do this privately, please email [info@tryswiftconf.com](mailto:info@tryswiftconf.com).
